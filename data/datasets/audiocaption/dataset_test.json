@@ -1,17 +1,52 @@
 [
-    {
-        "audio_id": 1,
-        "caption": "First caption that describes this amazing track!",
-        "audio_path": "track_1.npy"
-    },
-    {
-        "audio_id": 2,
-        "caption": "Second caption that describes this amazing track!",
-        "audio_path": "track_2.npy"
-    },
-    {
-        "audio_id": 3,
-        "caption": "Third caption that describes this amazing track!",
-        "audio_path": "track_3.npy"
-    }
+	{
+		"audio_id": 61,
+		"caption": "tender mood, bamboo trees, are standing, on a mountain, morning, spring, calmness, suiboku painting, black and white",
+		"audio_path": "suiboku-calm-zen-piano.npy"
+	},
+	{
+		"audio_id": 62,
+		"caption": "exciting mood, the sun, is rising, on a town, morning, spring, nostalgia, dreamy, beautiful scene",
+		"audio_path": "sunrise-piano.npy"
+	},
+	{
+		"audio_id": 63,
+		"caption": "sad mood, a girl, is sitting with her head on her knees crying, open field, night, autumn, emotional, rain is falling, the moon is shining",
+		"audio_path": "tearful.npy"
+	},
+	{
+		"audio_id": 64,
+		"caption": "tender mood, a dreamer, is looking up to a purple moon, from a window, night, summer, nostalgia, dreamy, the moon is shining",
+		"audio_path": "tender-feelings.npy"
+	},
+	{
+		"audio_id": 65,
+		"caption": "tender mood, rain water drops, are falling, on a house roof, morning, spring, peaceful, rain is falling, cinematic",
+		"audio_path": "the-sound-of-water-drops.npy"
+	},
+	{
+		"audio_id": 66,
+		"caption": "tender mood, snow, is falling, on a river, morning, winter, nostalgia, dreamy, beautiful scene",
+		"audio_path": "the-winter-fall.npy"
+	},
+	{
+		"audio_id": 67,
+		"caption": "exciting mood, filmstrip, is running, on blue abstract background, morning, spring, joyful, cinematic",
+		"audio_path": "this-documentary.npy"
+	},
+	{
+		"audio_id": 68,
+		"caption": "tender mood, a guy, is lifting a girl, open field, night, autumn, emotional, heart shape stars in the background, shooting stars",
+		"audio_path": "together.npy"
+	},
+	{
+		"audio_id": 69,
+		"caption": "exciting mood, a plane, is flying, famous buildings on the background, morning, spring, joyful, dreamy",
+		"audio_path": "traveling-around-the-world.npy"
+	},
+	{
+		"audio_id": 70,
+		"caption": "happy mood, a girl, is riding a bike and holding balloons, on the sky, morning, spring, dreamy, music notes flying around",
+		"audio_path": "uplifting-piano.npy"
+	}
 ]
