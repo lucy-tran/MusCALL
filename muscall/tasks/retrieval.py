@@ -15,7 +15,9 @@ def get_muscall_features(model, data_loader, device):
     all_text_features = torch.zeros(dataset_size, 512).to(device)
 
     samples_in_previous_batch = 0
+
     for i, batch in enumerate(data_loader):
+        print("batch #: ", i)
         batch = tuple(t.to(device=device, non_blocking=True) for t in batch)
         _, input_audio, text_input_ids, _, _, _ = batch
 
@@ -28,6 +30,7 @@ def get_muscall_features(model, data_loader, device):
             text_features.norm(dim=-1, keepdim=True)
 
         samples_in_current_batch = input_audio.size(0)
+        print("samples: ", samples_in_current_batch)
         start_index = i * samples_in_previous_batch
         end_index = start_index + samples_in_current_batch
         samples_in_previous_batch = samples_in_current_batch
@@ -39,7 +42,7 @@ def get_muscall_features(model, data_loader, device):
 
 
 def compute_sim_score(audio_features, text_features):
-    logits_per_audio = audio_features @ text_features.t()
+    logits_per_audio = audio_features @ text_features.t() # matrix multiplication + transpose
     logits_per_text = logits_per_audio.t()
 
     return logits_per_text
@@ -52,6 +55,9 @@ def get_ranking(score_matrix, device):
     scores_sorted, retrieved_indices = torch.sort(
         score_matrix, dim=1, descending=True)
     gt_indices = torch.zeros((num_queries, num_items, 1))
+    print("score_matrix", score_matrix)
+    print("scores_sorted", scores_sorted)
+    print("retrieved_indices: ", retrieved_indices)
 
     for i in range(num_queries):
         gt_indices[i] = torch.full((num_queries, 1), i)
@@ -113,7 +119,8 @@ class Retrieval:
         dataset = AudioCaptionDataset(self.muscall_config.dataset_config, dataset_type="test")
         indices = torch.randperm(len(dataset))[: self.test_set_size]
         random_dataset = Subset(dataset, indices)
-        self.batch_size = 256
+        # self.batch_size = 256
+        self.batch_size = 5
         self.data_loader = DataLoader(
             dataset=random_dataset,
             batch_size=self.batch_size,
@@ -126,6 +133,7 @@ class Retrieval:
         self.model.load_state_dict(self.checkpoint["state_dict"])
         self.model.to(self.device)
         self.model.eval()
+        # self.evaluate()
 
     def evaluate(self):
         audio_features, text_features = get_muscall_features(
