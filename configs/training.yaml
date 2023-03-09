@@ -7,7 +7,7 @@ training:
   device: cpu
 
   dataloader:
-    batch_size: 10
+    batch_size: 7
     num_workers: 4
     shuffle: True
     pin_memory: True
