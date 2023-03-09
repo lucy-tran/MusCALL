@@ -1,52 +1,52 @@
 [
 	{
 		"audio_id": 71,
-		"caption": "sad mood, a girl, is standing, on a dock, evening, autumn, emotional, waiting, the sun is setting",
+		"caption": "sad mood, girl, standing, on a dock, evening, autumn, emotional, waiting, sun setting",
 		"audio_path": "waiting.npy"
 	},
 	{
 		"audio_id": 72,
-		"caption": "happy mood, a waterfall, is flowing peacefully, on a mountain, noon, autumn, nostalgia, autumn leaves are flying, the sun is shining",
+		"caption": "happy mood, waterfall, flowing peacefully, on mountain, noon, autumn, nostalgia, autumn leaves flying, sun shining",
 		"audio_path": "waterfalls.npy"
 	},
 	{
 		"audio_id": 73,
-		"caption": "exciting mood, a group of soldiers, are charging, in a battle field, noon, spring, victory, cinematic, the sun is shining",
+		"caption": "exciting mood, group of soldiers, charging, in battle field, noon, spring, victory, cinematic, sun shining",
 		"audio_path": "we-can-do-it.npy"
 	},
 	{
 		"audio_id": 74,
-		"caption": "exciting mood, a bride, is holding and kissing a groom, in a wedding party, noon, spring, joyful, cinematic, beautiful scene",
+		"caption": "exciting mood, bride, holding and kissing groom, in wedding party, noon, spring, joyful, cinematic, beautiful scene",
 		"audio_path": "wedding-love-story.npy"
 	},
 	{
 		"audio_id": 75,
-		"caption": "happy mood, a heart, is flying, from open hands, morning, spring, joyful, cinematic",
+		"caption": "happy mood, a heart, flying, from open hands, morning, spring, joyful, cinematic",
 		"audio_path": "with-all-my-heart.npy"
 	},
 	{
 		"audio_id": 76,
-		"caption": "happy mood, two birds, are perching on a tree, in a forest, morning, winter, emotional, the wind is blowing the snow, beautiful scene",
+		"caption": "happy mood, two birds, perching on tree, in forest, morning, winter, emotional, wind blowing snow, beautiful scene",
 		"audio_path": "you-are-always-with-me.npy"
 	},
 	{
 		"audio_id": 77,
-		"caption": "happy mood, a couple, is strolling, along the river bank, morning, autumn, peaceful, the sun is setting",
+		"caption": "happy mood, couple, strolling, along the river bank, morning, autumn, peaceful, sun setting",
 		"audio_path": "1_Te_Amo.npy"
 	},
 	{
 		"audio_id": 78,
-		"caption": "scary mood, trees, are standing, on mountains, noon, winter, cold, intense snow storm",
+		"caption": "scary mood, trees, standing, on mountains, noon, winter, cold, intense snow storm",
 		"audio_path": "2_Winter_The_Four_Seasons.npy"
 	},
 	{
 		"audio_id": 79,
-		"caption": "sad mood, a man, is standing, in the cemetery, evening, autumn, sorrow, wind is blowing",
+		"caption": "sad mood, man, standing, in cemetery, evening, autumn, sorrow, wind blowing",
 		"audio_path": "3_Naruto-Sadness_and_Sorrow.npy"
 	},
 	{
 		"audio_id": 80,
-		"caption": "exciting mood, an army, is riding horses, in a battle field, evening, spring, joyful, war victory",
+		"caption": "exciting mood, an army, riding horses, in battle field, evening, spring, joyful, war victory",
 		"audio_path": "4_Victory.npy"
 	}
 ]
