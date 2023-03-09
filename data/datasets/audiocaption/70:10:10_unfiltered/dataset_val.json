@@ -1,0 +1,52 @@
+[
+	{
+		"audio_id": 81,
+		"caption": "tender mood, a man, is helping his child to ride a bike, open field, evening, autumn, joyful, beautiful memories",
+		"audio_path": "5_Memories.npy"
+	},
+	{
+		"audio_id": 82,
+		"caption": "happy mood, a girl, is riding a horse, across a park, noon, spring, joyful, dreamy, the sun is shining",
+		"audio_path": "Across-the-Park.npy"
+	},
+	{
+		"audio_id": 83,
+		"caption": "happy mood, a couple, is looking down a river, from a bridge, evening, autumn, emotional, autumn leaves are flying, beautiful scene",
+		"audio_path": "Autumn-Scene.npy"
+	},
+	{
+		"audio_id": 84,
+		"caption": "exciting mood, a couple, is chasing each other, across a park, morning, autumn, joyful, dreamy, autumn leaves are flying",
+		"audio_path": "Autumn.npy"
+	},
+	{
+		"audio_id": 85,
+		"caption": "happy mood, a girl, is playing piano, on blue abstract background, morning, spring, joyful, music notes flying around",
+		"audio_path": "Beautiful-Piano.npy"
+	},
+	{
+		"audio_id": 86,
+		"caption": "exciting mood, a shepherd, is leading a flock of sheep, on a green pasture, morning, spring, joyful, the sun is shining, beautiful scene",
+		"audio_path": "Beethoven_Piano_Sonata_D_major_I_Allegro.npy"
+	},
+	{
+		"audio_id": 87,
+		"caption": "tender mood, a canoe, is floating, on a river, night, spring, peaceful, the moon is shining, beautiful scene",
+		"audio_path": "Calm-and-Peaceful.npy"
+	},
+	{
+		"audio_id": 88,
+		"caption": "tender mood, butterflies made by lights, are flying, open field, night, spring, nostalgia, dreamy, beautiful scene",
+		"audio_path": "Cinematic-piano-lights.npy"
+	},
+	{
+		"audio_id": 89,
+		"caption": "exciting mood, a gladiator, is making an entry, in a circuit, night, spring, joyful, the crowd is cheering",
+		"audio_path": "Circus-Theme-Entry-of-the-Gladiators.npy"
+	},
+	{
+		"audio_id": 90,
+		"caption": "tender mood, a girl, is looking at laterns floating, on an open sky, night, spring, emotional, dreamy, beautiful scene",
+		"audio_path": "driftamonginfinitestars.npy"
+	}
+]

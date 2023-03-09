@@ -1,0 +1,352 @@
+[
+	{
+		"audio_id": 1,
+		"caption": "tender mood, girl, star gazing, open field, night, summer, joyful",
+		"audio_path": "a-piece-of-motivation.npy"
+	},
+	{
+		"audio_id": 2,
+		"caption": "happy mood, girl, going home, long road, evening, autumn, joyful",
+		"audio_path": "amazing-grace.npy"
+	},
+	{
+		"audio_id": 3,
+		"caption": "happy mood, angels, singing on the sky, open field, night, winter, joyful, christmas story",
+		"audio_path": "angels-we-have-heard-on-high-grand-piano.npy"
+	},
+	{
+		"audio_id": 4,
+		"caption": "tender mood, guy, listening to music, on a train, night, spring, peaceful, ataraxia",
+		"audio_path": "ataraxia.npy"
+	},
+	{
+		"audio_id": 5,
+		"caption": "tender mood, guy, reaching a star, open sky, night, summer, dreamy, miracle",
+		"audio_path": "believe-in-miracle.npy"
+	},
+	{
+		"audio_id": 6,
+		"caption": "tender mood, baby, is sleeping, open sky, night, spring, nostalgia, lullaby, music notes flying around",
+		"audio_path": "brahms-lullaby.npy"
+	},
+	{
+		"audio_id": 7,
+		"caption": "tender mood, trees, are singing, in a forest, morning, spring, calm, peaceful, the sun is shining",
+		"audio_path": "calm-nature.npy"
+	},
+	{
+		"audio_id": 8,
+		"caption": "exciting mood, group of people, is hiking, in a majestic fall park, noon, autumn, emotional, cinematic, autumn leaves are flying",
+		"audio_path": "cinematic-piano.npy"
+	},
+	{
+		"audio_id": 9,
+		"caption": "exciting mood, snow, is falling, on mountains, evening, winter, cold, the wind is blowing the snow, the sun is shining",
+		"audio_path": "cold-mountain.npy"
+	},
+	{
+		"audio_id": 10,
+		"caption": "funny mood, clown, is playing, circuit, evening, summer, happy",
+		"audio_path": "comedian.npy"
+	},
+	{
+		"audio_id": 11,
+		"caption": "happy mood, fishes, are flying, open ocean, night, summer, dreamy, cinematic, the moon is shining",
+		"audio_path": "dance-of-the-sea.npy"
+	},
+	{
+		"audio_id": 12,
+		"caption": "funny mood, a dog, is performing, in circuit, night, summer, joyful, vintage movie feeling, music notes flying around",
+		"audio_path": "dog-waltz.npy"
+	},
+	{
+		"audio_id": 13,
+		"caption": "happy mood, the stars, are dancing, open sky, night, autumn, dreamy, music notes flying around",
+		"audio_path": "dreamy.npy"
+	},
+	{
+		"audio_id": 14,
+		"caption": "sad mood, an old man, is kneeling and crying, in graveyard, evening, autumn, emotional, autumn leaves are flying",
+		"audio_path": "dry-autumn-leaf.npy"
+	},
+	{
+		"audio_id": 15,
+		"caption": "sad mood, mother, is holding dead baby and crying, in city destroyed by war, morning, winter, emotional, wind is blowing the snow",
+		"audio_path": "emotional-piano.npy"
+	},
+	{
+		"audio_id": 16,
+		"caption": "tender mood, a dad, is helping his child to ride a bike, open field, evening, autumn, emotional, nostalgia, autumn leaves are flying",
+		"audio_path": "emotions.npy"
+	},
+	{
+		"audio_id": 17,
+		"caption": "happy mood, morning dew, on green grasses, open field, morning, spring, peaceful, macro, the sun is shining",
+		"audio_path": "endless-by-prabajithk-118998.npy"
+	},
+	{
+		"audio_id": 18,
+		"caption": "tender mood, an old faded letter, lying on a table, home office, night, winter, touching, cinematic, the moon is shining",
+		"audio_path": "faded-letter-calm-and-touching.npy"
+	},
+	{
+		"audio_id": 19,
+		"caption": "exciting mood, a couple, is dancing, open field, night, spring, joyful, cinematic, music notes flying around",
+		"audio_path": "first-dance.npy"
+	},
+	{
+		"audio_id": 20,
+		"caption": "sad mood, flowers, are wilted, open field, night, autumn, emotional, the moon is shining, autumn leaves are flying",
+		"audio_path": "flowers-piano.npy"
+	},
+	{
+		"audio_id": 21,
+		"caption": "tender mood, a couple, is watching a sunset, open sky, evening, spring, forgetful, emotional, vintage movie feeling",
+		"audio_path": "forget.npy"
+	},
+	{
+		"audio_id": 22,
+		"caption": "sad mood, a glass heart, is broken, an empty room, evening, winter, hurtful, cinematic",
+		"audio_path": "glass-heart.npy"
+	},
+	{
+		"audio_id": 23,
+		"caption": "happy mood, a group of people, is doing christmas carol, in a town, night, winter, joyful, christmas tree, music notes flying around",
+		"audio_path": "god-rest-you-merry-gentlemen-christmas.npy"
+	},
+	{
+		"audio_id": 24,
+		"caption": "happy mood, a group of people, is celebrating birthday, in a house, night, summer, joyful, music notes flying around",
+		"audio_path": "happy-birthday-to-you.npy"
+	},
+	{
+		"audio_id": 25,
+		"caption": "exciting mood, a couple, is dancing, in a wedding party, night, spring, joyful, cheerful, music notes flying around",
+		"audio_path": "heerful.npy"
+	},
+	{
+		"audio_id": 26,
+		"caption": "happy mood, a couple, is canoeing, in a river, morning, autumn, hopeful, nostalgia, autumn leaves are flying",
+		"audio_path": "hope-piano.npy"
+	},
+	{
+		"audio_id": 27,
+		"caption": "happy mood, a girl, is skating, in an olympic competition, noon, summer, hopeful, enjoy the moment, the crowd is cheering",
+		"audio_path": "hopeful-piano_1.npy"
+	},
+	{
+		"audio_id": 28,
+		"caption": "exciting mood, a girl, is water skiing, in a river, noon, summer, cinematic, the crowd is cheering, the sun is shining",
+		"audio_path": "hopeful-piano.npy"
+	},
+	{
+		"audio_id": 29,
+		"caption": "scary mood, a group of people, is exploring, a haunted house, night, autumn, fogs, dark cinematic, ghosts",
+		"audio_path": "horrible.npy"
+	},
+	{
+		"audio_id": 30,
+		"caption": "exciting mood, a cowboy, is entering, a saloon, noon, spring, nostalgia, vintage movie feeling, black and white",
+		"audio_path": "in-the-saloon.npy"
+	},
+	{
+		"audio_id": 31,
+		"caption": "exciting mood, colorful hot air balloons, are flying, open sky, morning, spring, inspirational, the sun is shining, clouds",
+		"audio_path": "inspirational-cinematic-piano.npy"
+	},
+	{
+		"audio_id": 32,
+		"caption": "exciting mood, a group of people, is running hard, open field, noon, summer, inspirational, sweating, the sun is shining",
+		"audio_path": "inspiring-life.npy"
+	},
+	{
+		"audio_id": 33,
+		"caption": "happy mood, a cup of coffee, is steaming, on a table, noon, spring, emotional, music notes flying around, vintage vinyl record player turntable",
+		"audio_path": "jazz-cafe.npy"
+	},
+	{
+		"audio_id": 34,
+		"caption": "exciting mood, a couple, is dancing, in the rain, evening, autumn, emotional, jazz, music notes flying around",
+		"audio_path": "jazz-style-piano-day-happy-love-life.npy"
+	},
+	{
+		"audio_id": 35,
+		"caption": "happy mood, a princess, is dancing, in a ballroom, night, spring, dreamy, firework, music notes flying around",
+		"audio_path": "lilix27s-dream.npy"
+	},
+	{
+		"audio_id": 36,
+		"caption": "sad mood, a guy, is walking, on an open road, night, spring, emotional, the stars are shining, black and white",
+		"audio_path": "lonestar.npy"
+	},
+	{
+		"audio_id": 37,
+		"caption": "happy mood, a grandmother, is lying on bed, in a hospital, morning, summer, emotional, the sun is shining, family is gathering around",
+		"audio_path": "longing-for-eternity-worship.npy"
+	},
+	{
+		"audio_id": 38,
+		"caption": "exciting mood, a guy, is kissing on a cheek of a girl, 1930s era, night, autumn, joyful, vintage movie feeling, black and white",
+		"audio_path": "love-in-vintage-film.npy"
+	},
+	{
+		"audio_id": 39,
+		"caption": "tender mood, a family, is having dinner together, in the dinning room, night, autumn, joyful, nostalgia, cinematic",
+		"audio_path": "lovely-time.npy"
+	},
+	{
+		"audio_id": 40,
+		"caption": "scary mood, a group of mafia, is carrying bags of money, in a bank, noon, winter, thrilling, dark cinematic",
+		"audio_path": "mafia.npy"
+	},
+	{
+		"audio_id": 41,
+		"caption": "tender mood, moon, is shining, on a beautiful lake, night, spring, emotional, dreamy, beautiful scene",
+		"audio_path": "moonlight-sonata-sonate.npy"
+	},
+	{
+		"audio_id": 42,
+		"caption": "happy mood, morning dew, on green grasses, open field, morning, spring, joyful, butterflys are flying, beautiful scene",
+		"audio_path": "morning-dew-delicate.npy"
+	},
+	{
+		"audio_id": 43,
+		"caption": "exciting mood, charlie chaplin, is dancing, in a restaurant, night, spring, joyful, black and white",
+		"audio_path": "omedy.npy"
+	},
+	{
+		"audio_id": 44,
+		"caption": "tender mood, a vintage water fountain, is flowing, in a garden, morning, autumn, nostalgia, the sun is shining, beautiful scene",
+		"audio_path": "peaceful-garden-healing-light.npy"
+	},
+	{
+		"audio_id": 45,
+		"caption": "exciting mood, a group of children, is playing, in the rain, noon, summer, nostalgia, joyful, the sun is shining",
+		"audio_path": "piano-emotional-children.npy"
+	},
+	{
+		"audio_id": 46,
+		"caption": "tender mood, a group of people, is sitting around a fire pit, by a riverbank, night, autumn, emotional, nostalgia, the moon is shining",
+		"audio_path": "piano.npy"
+	},
+	{
+		"audio_id": 47,
+		"caption": "tender mood, a rain, is pouring down, on a town, morning, spring, nostalgia, people are running away from rain, people are using umbrellas",
+		"audio_path": "raining-ambient-calm-piano.npy"
+	},
+	{
+		"audio_id": 48,
+		"caption": "sad mood, a guy, is sitting and holding his head, on a bed, night, spring, regretful, the moon is shining",
+		"audio_path": "regret-sad-dark-piano.npy"
+	},
+	{
+		"audio_id": 49,
+		"caption": "tender mood, colorful flowers, are blooming, in a garden, noon, spring, emotional, the sun is shining, beautiful scene",
+		"audio_path": "relaxing-piano.npy"
+	},
+	{
+		"audio_id": 50,
+		"caption": "happy mood, butterflies made by lights, are flying, from open hands, night, spring, dreamy, revival, cinematic",
+		"audio_path": "rinascita.npy"
+	},
+	{
+		"audio_id": 51,
+		"caption": "tender mood, a river, is flowing peacefully, along an open field, day, autumn, nostalgia, colorful autumn trees, autumn leaves are flying",
+		"audio_path": "river-calm-and-relaxing.npy"
+	},
+	{
+		"audio_id": 52,
+		"caption": "sad mood, a guy, is holding an umbrella, in a city destroyed by war, evening, summer, emotional, rain is falling, black and white",
+		"audio_path": "sad-piano.npy"
+	},
+	{
+		"audio_id": 53,
+		"caption": "exciting mood, a group of people, are drinking, in a saloon, night, summer, joyful, 1900s era, black and white",
+		"audio_path": "saloon-piano-ragtime-retro-vintage-jazz-comedy.npy"
+	},
+	{
+		"audio_id": 54,
+		"caption": "happy mood, a girl, is lifting hands to the sky, on the top of a mountain, morning, spring, victory, the sun is shining, cinematic",
+		"audio_path": "sentimental.npy"
+	},
+	{
+		"audio_id": 55,
+		"caption": "happy mood, a flower, is blooming, in a rain, morning, spring, macro, cinematic, beautiful scene",
+		"audio_path": "soft-rain-delicate-piano.npy"
+	},
+	{
+		"audio_id": 56,
+		"caption": "sad mood, a statue of a sorrow man, is faded, in a heavy rain, evening, autumn, emotional, cinematic, black and white",
+		"audio_path": "sorrow.npy"
+	},
+	{
+		"audio_id": 57,
+		"caption": "tender mood, a guy, is flying the moon, open sky, night, spring, emotional, cinematic, beautiful scene",
+		"audio_path": "sound-sleep-surprise-.npy"
+	},
+	{
+		"audio_id": 58,
+		"caption": "happy mood, cherry blossom trees, are blooming, in a garden, morning, spring, emotional, the sun is shining, beautiful scene",
+		"audio_path": "spring.npy"
+	},
+	{
+		"audio_id": 59,
+		"caption": "happy mood, starlight sky, is shining, open sky, night, spring, emotional, cinematic, beautiful scene",
+		"audio_path": "starlight-calm-piano.npy"
+	},
+	{
+		"audio_id": 60,
+		"caption": "tender mood, a lighthouse, is shining, open ocean, night, autumn, peaceful, cinematic",
+		"audio_path": "stress-relief-piano.npy"
+	},
+	{
+		"audio_id": 61,
+		"caption": "tender mood, bamboo trees, are standing, on a mountain, morning, spring, calmness, suiboku painting, black and white",
+		"audio_path": "suiboku-calm-zen-piano.npy"
+	},
+	{
+		"audio_id": 62,
+		"caption": "exciting mood, the sun, is rising, on a town, morning, spring, nostalgia, dreamy, beautiful scene",
+		"audio_path": "sunrise-piano.npy"
+	},
+	{
+		"audio_id": 63,
+		"caption": "sad mood, a girl, is sitting with her head on her knees crying, open field, night, autumn, emotional, rain is falling, the moon is shining",
+		"audio_path": "tearful.npy"
+	},
+	{
+		"audio_id": 64,
+		"caption": "tender mood, a dreamer, is looking up to a purple moon, from a window, night, summer, nostalgia, dreamy, the moon is shining",
+		"audio_path": "tender-feelings.npy"
+	},
+	{
+		"audio_id": 65,
+		"caption": "tender mood, rain water drops, are falling, on a house roof, morning, spring, peaceful, rain is falling, cinematic",
+		"audio_path": "the-sound-of-water-drops.npy"
+	},
+	{
+		"audio_id": 66,
+		"caption": "tender mood, snow, is falling, on a river, morning, winter, nostalgia, dreamy, beautiful scene",
+		"audio_path": "the-winter-fall.npy"
+	},
+	{
+		"audio_id": 67,
+		"caption": "exciting mood, filmstrip, is running, on blue abstract background, morning, spring, joyful, cinematic",
+		"audio_path": "this-documentary.npy"
+	},
+	{
+		"audio_id": 68,
+		"caption": "tender mood, a guy, is lifting a girl, open field, night, autumn, emotional, heart shape stars in the background, shooting stars",
+		"audio_path": "together.npy"
+	},
+	{
+		"audio_id": 69,
+		"caption": "exciting mood, a plane, is flying, famous buildings on the background, morning, spring, joyful, dreamy",
+		"audio_path": "traveling-around-the-world.npy"
+	},
+	{
+		"audio_id": 70,
+		"caption": "happy mood, a girl, is riding a bike and holding balloons, on the sky, morning, spring, dreamy, music notes flying around",
+		"audio_path": "uplifting-piano.npy"
+	}
+]
