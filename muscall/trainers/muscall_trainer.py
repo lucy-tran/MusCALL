@@ -70,7 +70,7 @@ class MusCALLTrainer(BaseTrainer):
     def build_optimizer(self):
         self.logger.write("Building optimizer")
         optimizer_config = self.config.training.optimizer
-        self.optimizer = getattr(optim, optimizer_config.name, None)(
+        self.optimizer = getattr(optim, optimizer_config.name, None)( # None is the default method
             self.model.parameters(), **optimizer_config.args
         )
 
@@ -176,20 +176,20 @@ class MusCALLTrainer(BaseTrainer):
             batch = tuple(t.to(device=self.device, non_blocking=True) for t in batch)
             audio_id, input_audio, text_input_ids, _, _, data_idx = batch
 
-            if self.config.model_config.loss == "weighted_clip":
+            if self.config.model_config.loss == "weighted_clip": # tune in configs/models/muscall.yaml
                 sentence_sim = self.get_sentence_similarities(data_loader, data_idx)
             else:
                 sentence_sim = None
 
             original_audio = None
             audio_data_config = self.config.dataset_config.audio
-            if is_training and audio_data_config.augment:
+            if is_training and audio_data_config.augment: # tune in configs/datasets/audiocaption.yaml
                 original_audio = input_audio
                 augment_chain = get_transform_chain(
                     p_polarity=0,
                     p_gain=0,
-                    p_noise=audio_data_config.p_noise,
-                    p_pitch_shift=audio_data_config.p_pitch_shift,
+                    p_noise=audio_data_config.p_noise, # tuning factor
+                    p_pitch_shift=audio_data_config.p_pitch_shift, # tuning factor here
                     sample_rate=audio_data_config.sr,
                 )
                 input_audio = augment_chain(input_audio.unsqueeze(1), audio_data_config.sr).squeeze(1)

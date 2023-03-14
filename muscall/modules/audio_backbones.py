@@ -142,7 +142,7 @@ class ModifiedResNet(nn.Module):
 
         self.pooling = config.pooling
 
-        self.spec = torchaudio.transforms.MelSpectrogram(
+        self.spec = torchaudio.transforms.MelSpectrogram( # transform a raw audio signal to its melspectrogram
             sample_rate=sample_rate,
             n_fft=n_fft,
             f_min=f_min,
