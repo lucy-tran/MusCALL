@@ -3,6 +3,7 @@
 **/__pycache__/
 .vector_cache/
 .ipynb_checkpoints/
-save/
+*.tar
+*.npy
 **venv
 **/.DS_Store

@@ -124,3 +124,12 @@ Some of the code is adapted from the following repos:
 
 ## Contact
 If you have any questions, please get in touch: [i.manco@qmul.ac.uk](i.manco@qmul.ac.uk).
+
+## Notes
+Omit versions of python packages in requirements.txt. Then run pip install -r requirements.txt.
+
+Then run:
+
+`pip install torch==1.10.0+cu113 torchaudio==0.10.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html`
+
+(Acknowledgement: https://lightrun.com/answers/facebookresearch-demucs-oserror-libcudartso102-cannot-open-shared-object-file-no-such-file-or-directory)
