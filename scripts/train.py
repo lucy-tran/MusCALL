@@ -57,7 +57,7 @@ if __name__ == "__main__":
         update_conf_with_cli_params(params, config)
     else:
         config = OmegaConf.load(
-            "./save/experiments/{}/config.yaml".format(params.experiment_id)
+            "../save/experiments/{}/config.yaml".format(params.experiment_id)
         )
 
     logger = Logger(config)
