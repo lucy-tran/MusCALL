@@ -1,9 +1,12 @@
 .idea/*
 *.egg-info/
 **/__pycache__/
+**/.___pycache__
 .vector_cache/
 .ipynb_checkpoints/
 *.tar
 *.npy
 **venv
 **/.DS_Store
+**/._.DS_Store
+

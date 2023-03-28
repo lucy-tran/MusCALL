@@ -3,11 +3,11 @@ training:
   experiment_id: null
   # Maximum number of epochs
   epochs: 100
-  # Device on which the model will be trained. Set 'cpu' to train/infer on CPU
-  device: cpu
+  # Device on which the model will be trained. Set 'cpu' to train/infer on CPU, or 'cuda' to train on GPU.
+  device: cuda
 
   dataloader:
-    batch_size: 8
+    batch_size: 16
     num_workers: 4
     shuffle: True
     pin_memory: True
@@ -15,7 +15,7 @@ training:
   optimizer:
     name: AdamW
     args:
-      lr: 5e-4
+      lr: 5e-5
       eps: 1e-6
       betas: [0.9, 0.98]
       weight_decay: 0.2
