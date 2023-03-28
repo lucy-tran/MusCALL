@@ -1,0 +1,3162 @@
+[
+	{
+		"audio_id": 757,
+		"caption": "love",
+		"audio_path": "1342212.npy"
+	},
+	{
+		"audio_id": 380,
+		"caption": "film",
+		"audio_path": "1121408.npy"
+	},
+	{
+		"audio_id": 669,
+		"caption": "romantic",
+		"audio_path": "1286510.npy"
+	},
+	{
+		"audio_id": 343,
+		"caption": "melodic",
+		"audio_path": "1115612.npy"
+	},
+	{
+		"audio_id": 605,
+		"caption": "advertising, documentary, film, love",
+		"audio_path": "1239507.npy"
+	},
+	{
+		"audio_id": 382,
+		"caption": "dream",
+		"audio_path": "1121419.npy"
+	},
+	{
+		"audio_id": 469,
+		"caption": "energetic",
+		"audio_path": "1159704.npy"
+	},
+	{
+		"audio_id": 283,
+		"caption": "advertising",
+		"audio_path": "1108208.npy"
+	},
+	{
+		"audio_id": 786,
+		"caption": "dream",
+		"audio_path": "1371811.npy"
+	},
+	{
+		"audio_id": 703,
+		"caption": "relaxing",
+		"audio_path": "1310215.npy"
+	},
+	{
+		"audio_id": 492,
+		"caption": "emotional",
+		"audio_path": "1169711.npy"
+	},
+	{
+		"audio_id": 783,
+		"caption": "melodic",
+		"audio_path": "1366714.npy"
+	},
+	{
+		"audio_id": 478,
+		"caption": "film",
+		"audio_path": "1167618.npy"
+	},
+	{
+		"audio_id": 132,
+		"caption": "sad",
+		"audio_path": "1028908.npy"
+	},
+	{
+		"audio_id": 607,
+		"caption": "sad",
+		"audio_path": "1241406.npy"
+	},
+	{
+		"audio_id": 784,
+		"caption": "cool, groovy",
+		"audio_path": "1371800.npy"
+	},
+	{
+		"audio_id": 261,
+		"caption": "advertising, motivational",
+		"audio_path": "1095107.npy"
+	},
+	{
+		"audio_id": 163,
+		"caption": "dream",
+		"audio_path": "1056409.npy"
+	},
+	{
+		"audio_id": 199,
+		"caption": "advertising, motivational",
+		"audio_path": "1073213.npy"
+	},
+	{
+		"audio_id": 245,
+		"caption": "happy",
+		"audio_path": "1089916.npy"
+	},
+	{
+		"audio_id": 376,
+		"caption": "melancholic",
+		"audio_path": "1117701.npy"
+	},
+	{
+		"audio_id": 244,
+		"caption": "funny",
+		"audio_path": "1089914.npy"
+	},
+	{
+		"audio_id": 297,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1109821.npy"
+	},
+	{
+		"audio_id": 533,
+		"caption": "dream",
+		"audio_path": "1176410.npy"
+	},
+	{
+		"audio_id": 542,
+		"caption": "ballad",
+		"audio_path": "1194609.npy"
+	},
+	{
+		"audio_id": 565,
+		"caption": "emotional, happy, melodic, nature",
+		"audio_path": "1215214.npy"
+	},
+	{
+		"audio_id": 713,
+		"caption": "dark, upbeat",
+		"audio_path": "1320002.npy"
+	},
+	{
+		"audio_id": 218,
+		"caption": "movie",
+		"audio_path": "1076600.npy"
+	},
+	{
+		"audio_id": 798,
+		"caption": "melodic",
+		"audio_path": "1378005.npy"
+	},
+	{
+		"audio_id": 424,
+		"caption": "film, meditative",
+		"audio_path": "1149722.npy"
+	},
+	{
+		"audio_id": 455,
+		"caption": "cool",
+		"audio_path": "1156122.npy"
+	},
+	{
+		"audio_id": 160,
+		"caption": "dream",
+		"audio_path": "1056405.npy"
+	},
+	{
+		"audio_id": 692,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1299812.npy"
+	},
+	{
+		"audio_id": 238,
+		"caption": "happy, inspiring, motivational, positive",
+		"audio_path": "1087109.npy"
+	},
+	{
+		"audio_id": 750,
+		"caption": "drama, emotional",
+		"audio_path": "1336207.npy"
+	},
+	{
+		"audio_id": 518,
+		"caption": "movie",
+		"audio_path": "1170412.npy"
+	},
+	{
+		"audio_id": 528,
+		"caption": "movie",
+		"audio_path": "1173503.npy"
+	},
+	{
+		"audio_id": 315,
+		"caption": "melodic",
+		"audio_path": "1112009.npy"
+	},
+	{
+		"audio_id": 486,
+		"caption": "emotional",
+		"audio_path": "1169705.npy"
+	},
+	{
+		"audio_id": 594,
+		"caption": "film",
+		"audio_path": "1230816.npy"
+	},
+	{
+		"audio_id": 228,
+		"caption": "energetic",
+		"audio_path": "1078711.npy"
+	},
+	{
+		"audio_id": 247,
+		"caption": "energetic, powerful",
+		"audio_path": "1089919.npy"
+	},
+	{
+		"audio_id": 335,
+		"caption": "melodic",
+		"audio_path": "1115604.npy"
+	},
+	{
+		"audio_id": 773,
+		"caption": "documentary, sad",
+		"audio_path": "1356016.npy"
+	},
+	{
+		"audio_id": 657,
+		"caption": "film",
+		"audio_path": "1277823.npy"
+	},
+	{
+		"audio_id": 317,
+		"caption": "melodic",
+		"audio_path": "1112011.npy"
+	},
+	{
+		"audio_id": 519,
+		"caption": "movie",
+		"audio_path": "1170413.npy"
+	},
+	{
+		"audio_id": 700,
+		"caption": "space",
+		"audio_path": "1310110.npy"
+	},
+	{
+		"audio_id": 815,
+		"caption": "relaxing",
+		"audio_path": "1395310.npy"
+	},
+	{
+		"audio_id": 477,
+		"caption": "dark, emotional, melancholic",
+		"audio_path": "1166620.npy"
+	},
+	{
+		"audio_id": 673,
+		"caption": "calm, romantic",
+		"audio_path": "1286514.npy"
+	},
+	{
+		"audio_id": 272,
+		"caption": "children, documentary, dream, soft",
+		"audio_path": "1099221.npy"
+	},
+	{
+		"audio_id": 232,
+		"caption": "melodic",
+		"audio_path": "1085610.npy"
+	},
+	{
+		"audio_id": 121,
+		"caption": "documentary, dream",
+		"audio_path": "1023324.npy"
+	},
+	{
+		"audio_id": 490,
+		"caption": "emotional",
+		"audio_path": "1169709.npy"
+	},
+	{
+		"audio_id": 468,
+		"caption": "ballad, melancholic, romantic",
+		"audio_path": "1159703.npy"
+	},
+	{
+		"audio_id": 128,
+		"caption": "sad",
+		"audio_path": "1028903.npy"
+	},
+	{
+		"audio_id": 280,
+		"caption": "children",
+		"audio_path": "1105508.npy"
+	},
+	{
+		"audio_id": 303,
+		"caption": "happy, uplifting",
+		"audio_path": "1110516.npy"
+	},
+	{
+		"audio_id": 639,
+		"caption": "relaxing",
+		"audio_path": "1265316.npy"
+	},
+	{
+		"audio_id": 383,
+		"caption": "film",
+		"audio_path": "1121420.npy"
+	},
+	{
+		"audio_id": 736,
+		"caption": "adventure, ballad, dream, hopeful, inspiring",
+		"audio_path": "1323012.npy"
+	},
+	{
+		"audio_id": 739,
+		"caption": "inspiring, soundscape",
+		"audio_path": "1329110.npy"
+	},
+	{
+		"audio_id": 416,
+		"caption": "calm",
+		"audio_path": "1149623.npy"
+	},
+	{
+		"audio_id": 301,
+		"caption": "happy, uplifting",
+		"audio_path": "1110514.npy"
+	},
+	{
+		"audio_id": 731,
+		"caption": "dark, upbeat",
+		"audio_path": "1320021.npy"
+	},
+	{
+		"audio_id": 194,
+		"caption": "ballad",
+		"audio_path": "1069009.npy"
+	},
+	{
+		"audio_id": 572,
+		"caption": "advertising",
+		"audio_path": "1217512.npy"
+	},
+	{
+		"audio_id": 241,
+		"caption": "romantic, sad",
+		"audio_path": "1088002.npy"
+	},
+	{
+		"audio_id": 180,
+		"caption": "commercial",
+		"audio_path": "1061502.npy"
+	},
+	{
+		"audio_id": 513,
+		"caption": "movie",
+		"audio_path": "1170407.npy"
+	},
+	{
+		"audio_id": 632,
+		"caption": "romantic",
+		"audio_path": "1265308.npy"
+	},
+	{
+		"audio_id": 525,
+		"caption": "movie",
+		"audio_path": "1173500.npy"
+	},
+	{
+		"audio_id": 423,
+		"caption": "film, meditative",
+		"audio_path": "1149718.npy"
+	},
+	{
+		"audio_id": 659,
+		"caption": "commercial, hopeful, positive",
+		"audio_path": "1278310.npy"
+	},
+	{
+		"audio_id": 324,
+		"caption": "melodic",
+		"audio_path": "1112018.npy"
+	},
+	{
+		"audio_id": 801,
+		"caption": "love, nature, soundscape",
+		"audio_path": "1380601.npy"
+	},
+	{
+		"audio_id": 254,
+		"caption": "background",
+		"audio_path": "1094519.npy"
+	},
+	{
+		"audio_id": 559,
+		"caption": "sad",
+		"audio_path": "1211604.npy"
+	},
+	{
+		"audio_id": 818,
+		"caption": "drama",
+		"audio_path": "1398422.npy"
+	},
+	{
+		"audio_id": 708,
+		"caption": "love",
+		"audio_path": "1312109.npy"
+	},
+	{
+		"audio_id": 577,
+		"caption": "advertising",
+		"audio_path": "1217517.npy"
+	},
+	{
+		"audio_id": 676,
+		"caption": "romantic",
+		"audio_path": "1286518.npy"
+	},
+	{
+		"audio_id": 169,
+		"caption": "documentary, movie, relaxing",
+		"audio_path": "1058213.npy"
+	},
+	{
+		"audio_id": 296,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1109820.npy"
+	},
+	{
+		"audio_id": 737,
+		"caption": "film, soft",
+		"audio_path": "1326222.npy"
+	},
+	{
+		"audio_id": 472,
+		"caption": "calm, dream, love",
+		"audio_path": "1163224.npy"
+	},
+	{
+		"audio_id": 116,
+		"caption": "emotional, epic, film",
+		"audio_path": "1012007.npy"
+	},
+	{
+		"audio_id": 512,
+		"caption": "movie",
+		"audio_path": "1170406.npy"
+	},
+	{
+		"audio_id": 466,
+		"caption": "ballad, love, melancholic, romantic",
+		"audio_path": "1159622.npy"
+	},
+	{
+		"audio_id": 395,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1122012.npy"
+	},
+	{
+		"audio_id": 461,
+		"caption": "romantic",
+		"audio_path": "1157302.npy"
+	},
+	{
+		"audio_id": 726,
+		"caption": "dark, upbeat",
+		"audio_path": "1320015.npy"
+	},
+	{
+		"audio_id": 359,
+		"caption": "melodic",
+		"audio_path": "1115703.npy"
+	},
+	{
+		"audio_id": 224,
+		"caption": "energetic",
+		"audio_path": "1078707.npy"
+	},
+	{
+		"audio_id": 763,
+		"caption": "corporate, motivational, romantic, uplifting",
+		"audio_path": "1348114.npy"
+	},
+	{
+		"audio_id": 349,
+		"caption": "melodic",
+		"audio_path": "1115618.npy"
+	},
+	{
+		"audio_id": 129,
+		"caption": "sad",
+		"audio_path": "1028904.npy"
+	},
+	{
+		"audio_id": 253,
+		"caption": "dark, dramatic",
+		"audio_path": "1094515.npy"
+	},
+	{
+		"audio_id": 541,
+		"caption": "film",
+		"audio_path": "1192421.npy"
+	},
+	{
+		"audio_id": 212,
+		"caption": "emotional",
+		"audio_path": "1073708.npy"
+	},
+	{
+		"audio_id": 141,
+		"caption": "ambiental",
+		"audio_path": "1029514.npy"
+	},
+	{
+		"audio_id": 802,
+		"caption": "happy",
+		"audio_path": "1380711.npy"
+	},
+	{
+		"audio_id": 279,
+		"caption": "meditative, movie",
+		"audio_path": "1105300.npy"
+	},
+	{
+		"audio_id": 404,
+		"caption": "ballad, mellow",
+		"audio_path": "1128211.npy"
+	},
+	{
+		"audio_id": 171,
+		"caption": "documentary, movie, relaxing",
+		"audio_path": "1058215.npy"
+	},
+	{
+		"audio_id": 667,
+		"caption": "romantic",
+		"audio_path": "1286508.npy"
+	},
+	{
+		"audio_id": 190,
+		"caption": "advertising, emotional, inspiring, positive, uplifting",
+		"audio_path": "1066511.npy"
+	},
+	{
+		"audio_id": 820,
+		"caption": "children",
+		"audio_path": "1400401.npy"
+	},
+	{
+		"audio_id": 440,
+		"caption": "film, meditative",
+		"audio_path": "1150118.npy"
+	},
+	{
+		"audio_id": 562,
+		"caption": "love, sad",
+		"audio_path": "1211607.npy"
+	},
+	{
+		"audio_id": 409,
+		"caption": "energetic",
+		"audio_path": "1130521.npy"
+	},
+	{
+		"audio_id": 267,
+		"caption": "advertising, motivational",
+		"audio_path": "1095113.npy"
+	},
+	{
+		"audio_id": 677,
+		"caption": "dream",
+		"audio_path": "1287604.npy"
+	},
+	{
+		"audio_id": 672,
+		"caption": "romantic",
+		"audio_path": "1286513.npy"
+	},
+	{
+		"audio_id": 789,
+		"caption": "calm",
+		"audio_path": "1374300.npy"
+	},
+	{
+		"audio_id": 249,
+		"caption": "happy",
+		"audio_path": "1089921.npy"
+	},
+	{
+		"audio_id": 374,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1116408.npy"
+	},
+	{
+		"audio_id": 307,
+		"caption": "happy, uplifting",
+		"audio_path": "1110520.npy"
+	},
+	{
+		"audio_id": 482,
+		"caption": "melancholic, slow",
+		"audio_path": "1168018.npy"
+	},
+	{
+		"audio_id": 747,
+		"caption": "dream, melancholic",
+		"audio_path": "1332222.npy"
+	},
+	{
+		"audio_id": 805,
+		"caption": "corporate, sad",
+		"audio_path": "1384403.npy"
+	},
+	{
+		"audio_id": 188,
+		"caption": "relaxing",
+		"audio_path": "1066205.npy"
+	},
+	{
+		"audio_id": 814,
+		"caption": "dark, emotional",
+		"audio_path": "1394316.npy"
+	},
+	{
+		"audio_id": 208,
+		"caption": "advertising, motivational",
+		"audio_path": "1073222.npy"
+	},
+	{
+		"audio_id": 835,
+		"caption": "romantic, sad",
+		"audio_path": "1416200.npy"
+	},
+	{
+		"audio_id": 260,
+		"caption": "adventure, advertising, dramatic, motivational, romantic",
+		"audio_path": "1095106.npy"
+	},
+	{
+		"audio_id": 810,
+		"caption": "corporate, dream",
+		"audio_path": "1384408.npy"
+	},
+	{
+		"audio_id": 432,
+		"caption": "film, meditative",
+		"audio_path": "1150106.npy"
+	},
+	{
+		"audio_id": 136,
+		"caption": "sad",
+		"audio_path": "1028913.npy"
+	},
+	{
+		"audio_id": 340,
+		"caption": "melodic",
+		"audio_path": "1115609.npy"
+	},
+	{
+		"audio_id": 198,
+		"caption": "advertising, motivational",
+		"audio_path": "1073212.npy"
+	},
+	{
+		"audio_id": 500,
+		"caption": "emotional",
+		"audio_path": "1169719.npy"
+	},
+	{
+		"audio_id": 516,
+		"caption": "movie",
+		"audio_path": "1170410.npy"
+	},
+	{
+		"audio_id": 522,
+		"caption": "melancholic",
+		"audio_path": "1170600.npy"
+	},
+	{
+		"audio_id": 435,
+		"caption": "film, meditative",
+		"audio_path": "1150109.npy"
+	},
+	{
+		"audio_id": 407,
+		"caption": "positive, upbeat",
+		"audio_path": "1128517.npy"
+	},
+	{
+		"audio_id": 135,
+		"caption": "sad",
+		"audio_path": "1028912.npy"
+	},
+	{
+		"audio_id": 529,
+		"caption": "movie",
+		"audio_path": "1173504.npy"
+	},
+	{
+		"audio_id": 611,
+		"caption": "emotional, sad",
+		"audio_path": "1243721.npy"
+	},
+	{
+		"audio_id": 549,
+		"caption": "melancholic, mellow",
+		"audio_path": "1203321.npy"
+	},
+	{
+		"audio_id": 830,
+		"caption": "fun, happy, upbeat, uplifting",
+		"audio_path": "1415221.npy"
+	},
+	{
+		"audio_id": 575,
+		"caption": "advertising",
+		"audio_path": "1217515.npy"
+	},
+	{
+		"audio_id": 582,
+		"caption": "dream",
+		"audio_path": "1217717.npy"
+	},
+	{
+		"audio_id": 823,
+		"caption": "relaxing",
+		"audio_path": "1400505.npy"
+	},
+	{
+		"audio_id": 421,
+		"caption": "film, meditative",
+		"audio_path": "1149716.npy"
+	},
+	{
+		"audio_id": 832,
+		"caption": "happy, trailer",
+		"audio_path": "1415223.npy"
+	},
+	{
+		"audio_id": 623,
+		"caption": "dark, emotional, melancholic",
+		"audio_path": "1253513.npy"
+	},
+	{
+		"audio_id": 749,
+		"caption": "drama, emotional",
+		"audio_path": "1336202.npy"
+	},
+	{
+		"audio_id": 768,
+		"caption": "love, relaxing",
+		"audio_path": "1352822.npy"
+	},
+	{
+		"audio_id": 164,
+		"caption": "dream",
+		"audio_path": "1056411.npy"
+	},
+	{
+		"audio_id": 682,
+		"caption": "dream, film, love, sad",
+		"audio_path": "1299802.npy"
+	},
+	{
+		"audio_id": 539,
+		"caption": "background, hopeful, inspiring, positive, uplifting",
+		"audio_path": "1189924.npy"
+	},
+	{
+		"audio_id": 325,
+		"caption": "melodic",
+		"audio_path": "1112019.npy"
+	},
+	{
+		"audio_id": 721,
+		"caption": "dark, upbeat",
+		"audio_path": "1320010.npy"
+	},
+	{
+		"audio_id": 365,
+		"caption": "energetic",
+		"audio_path": "1115915.npy"
+	},
+	{
+		"audio_id": 286,
+		"caption": "background",
+		"audio_path": "1108516.npy"
+	},
+	{
+		"audio_id": 574,
+		"caption": "advertising",
+		"audio_path": "1217514.npy"
+	},
+	{
+		"audio_id": 489,
+		"caption": "emotional",
+		"audio_path": "1169708.npy"
+	},
+	{
+		"audio_id": 681,
+		"caption": "calm",
+		"audio_path": "1298809.npy"
+	},
+	{
+		"audio_id": 656,
+		"caption": "dark, game",
+		"audio_path": "1277709.npy"
+	},
+	{
+		"audio_id": 743,
+		"caption": "documentary",
+		"audio_path": "1331801.npy"
+	},
+	{
+		"audio_id": 403,
+		"caption": "romantic",
+		"audio_path": "1127403.npy"
+	},
+	{
+		"audio_id": 388,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1122005.npy"
+	},
+	{
+		"audio_id": 454,
+		"caption": "dramatic",
+		"audio_path": "1153707.npy"
+	},
+	{
+		"audio_id": 742,
+		"caption": "dark",
+		"audio_path": "1329913.npy"
+	},
+	{
+		"audio_id": 545,
+		"caption": "advertising, epic, inspiring",
+		"audio_path": "1195906.npy"
+	},
+	{
+		"audio_id": 398,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1122015.npy"
+	},
+	{
+		"audio_id": 831,
+		"caption": "happy, upbeat, uplifting",
+		"audio_path": "1415222.npy"
+	},
+	{
+		"audio_id": 161,
+		"caption": "dream",
+		"audio_path": "1056406.npy"
+	},
+	{
+		"audio_id": 257,
+		"caption": "advertising, motivational",
+		"audio_path": "1095103.npy"
+	},
+	{
+		"audio_id": 195,
+		"caption": "background, happy, positive",
+		"audio_path": "1072121.npy"
+	},
+	{
+		"audio_id": 125,
+		"caption": "sad",
+		"audio_path": "1028900.npy"
+	},
+	{
+		"audio_id": 706,
+		"caption": "sad",
+		"audio_path": "1311818.npy"
+	},
+	{
+		"audio_id": 174,
+		"caption": "documentary, movie, relaxing",
+		"audio_path": "1058218.npy"
+	},
+	{
+		"audio_id": 762,
+		"caption": "corporate, motivational, romantic, uplifting",
+		"audio_path": "1348113.npy"
+	},
+	{
+		"audio_id": 683,
+		"caption": "sad, slow",
+		"audio_path": "1299803.npy"
+	},
+	{
+		"audio_id": 270,
+		"caption": "film",
+		"audio_path": "1097804.npy"
+	},
+	{
+		"audio_id": 179,
+		"caption": "commercial",
+		"audio_path": "1061405.npy"
+	},
+	{
+		"audio_id": 236,
+		"caption": "happy, inspiring, motivational, positive",
+		"audio_path": "1087105.npy"
+	},
+	{
+		"audio_id": 140,
+		"caption": "ambiental",
+		"audio_path": "1029510.npy"
+	},
+	{
+		"audio_id": 616,
+		"caption": "drama, emotional, sad",
+		"audio_path": "1250207.npy"
+	},
+	{
+		"audio_id": 230,
+		"caption": "dark",
+		"audio_path": "1081715.npy"
+	},
+	{
+		"audio_id": 215,
+		"caption": "children",
+		"audio_path": "1074904.npy"
+	},
+	{
+		"audio_id": 200,
+		"caption": "advertising, motivational",
+		"audio_path": "1073214.npy"
+	},
+	{
+		"audio_id": 553,
+		"caption": "inspiring, romantic",
+		"audio_path": "1210605.npy"
+	},
+	{
+		"audio_id": 710,
+		"caption": "space",
+		"audio_path": "1317219.npy"
+	},
+	{
+		"audio_id": 118,
+		"caption": "hopeful",
+		"audio_path": "1018801.npy"
+	},
+	{
+		"audio_id": 345,
+		"caption": "melodic",
+		"audio_path": "1115614.npy"
+	},
+	{
+		"audio_id": 630,
+		"caption": "melodic, relaxing, romantic",
+		"audio_path": "1264107.npy"
+	},
+	{
+		"audio_id": 668,
+		"caption": "romantic",
+		"audio_path": "1286509.npy"
+	},
+	{
+		"audio_id": 115,
+		"caption": "emotional, epic, film",
+		"audio_path": "1012005.npy"
+	},
+	{
+		"audio_id": 809,
+		"caption": "corporate, sad",
+		"audio_path": "1384407.npy"
+	},
+	{
+		"audio_id": 794,
+		"caption": "sad",
+		"audio_path": "1374322.npy"
+	},
+	{
+		"audio_id": 696,
+		"caption": "love, sad, slow",
+		"audio_path": "1299816.npy"
+	},
+	{
+		"audio_id": 766,
+		"caption": "love, romantic, sad",
+		"audio_path": "1352819.npy"
+	},
+	{
+		"audio_id": 488,
+		"caption": "emotional",
+		"audio_path": "1169707.npy"
+	},
+	{
+		"audio_id": 357,
+		"caption": "melodic",
+		"audio_path": "1115701.npy"
+	},
+	{
+		"audio_id": 508,
+		"caption": "movie",
+		"audio_path": "1170402.npy"
+	},
+	{
+		"audio_id": 684,
+		"caption": "love, slow",
+		"audio_path": "1299804.npy"
+	},
+	{
+		"audio_id": 531,
+		"caption": "movie",
+		"audio_path": "1173506.npy"
+	},
+	{
+		"audio_id": 526,
+		"caption": "movie",
+		"audio_path": "1173501.npy"
+	},
+	{
+		"audio_id": 821,
+		"caption": "love",
+		"audio_path": "1400402.npy"
+	},
+	{
+		"audio_id": 446,
+		"caption": "film, meditative",
+		"audio_path": "1150124.npy"
+	},
+	{
+		"audio_id": 591,
+		"caption": "emotional",
+		"audio_path": "1227104.npy"
+	},
+	{
+		"audio_id": 691,
+		"caption": "love, sad, soft",
+		"audio_path": "1299811.npy"
+	},
+	{
+		"audio_id": 410,
+		"caption": "dark",
+		"audio_path": "1131614.npy"
+	},
+	{
+		"audio_id": 399,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1122016.npy"
+	},
+	{
+		"audio_id": 450,
+		"caption": "film, meditative",
+		"audio_path": "1150407.npy"
+	},
+	{
+		"audio_id": 799,
+		"caption": "inspiring, melodic, soundscape",
+		"audio_path": "1380119.npy"
+	},
+	{
+		"audio_id": 150,
+		"caption": "ballad, love",
+		"audio_path": "1049715.npy"
+	},
+	{
+		"audio_id": 756,
+		"caption": "positive",
+		"audio_path": "1341306.npy"
+	},
+	{
+		"audio_id": 397,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1122014.npy"
+	},
+	{
+		"audio_id": 106,
+		"caption": "slow",
+		"audio_path": "1002223.npy"
+	},
+	{
+		"audio_id": 348,
+		"caption": "melodic",
+		"audio_path": "1115617.npy"
+	},
+	{
+		"audio_id": 753,
+		"caption": "melodic, sad",
+		"audio_path": "1337503.npy"
+	},
+	{
+		"audio_id": 568,
+		"caption": "advertising",
+		"audio_path": "1217508.npy"
+	},
+	{
+		"audio_id": 165,
+		"caption": "love, melodic",
+		"audio_path": "1057422.npy"
+	},
+	{
+		"audio_id": 417,
+		"caption": "film, meditative",
+		"audio_path": "1149712.npy"
+	},
+	{
+		"audio_id": 588,
+		"caption": "emotional",
+		"audio_path": "1227101.npy"
+	},
+	{
+		"audio_id": 203,
+		"caption": "advertising, motivational",
+		"audio_path": "1073217.npy"
+	},
+	{
+		"audio_id": 114,
+		"caption": "emotional, epic, film",
+		"audio_path": "1012004.npy"
+	},
+	{
+		"audio_id": 217,
+		"caption": "game, retro",
+		"audio_path": "1075815.npy"
+	},
+	{
+		"audio_id": 107,
+		"caption": "film, melancholic",
+		"audio_path": "1004124.npy"
+	},
+	{
+		"audio_id": 277,
+		"caption": "advertising, motivational",
+		"audio_path": "1101810.npy"
+	},
+	{
+		"audio_id": 813,
+		"caption": "dramatic, sad",
+		"audio_path": "1385300.npy"
+	},
+	{
+		"audio_id": 259,
+		"caption": "advertising, motivational",
+		"audio_path": "1095105.npy"
+	},
+	{
+		"audio_id": 154,
+		"caption": "epic, sad",
+		"audio_path": "1055022.npy"
+	},
+	{
+		"audio_id": 431,
+		"caption": "film, meditative",
+		"audio_path": "1150105.npy"
+	},
+	{
+		"audio_id": 796,
+		"caption": "melodic, romantic",
+		"audio_path": "1378002.npy"
+	},
+	{
+		"audio_id": 177,
+		"caption": "ballad",
+		"audio_path": "1060322.npy"
+	},
+	{
+		"audio_id": 101,
+		"caption": "action, epic, film",
+		"audio_path": "1000113.npy"
+	},
+	{
+		"audio_id": 527,
+		"caption": "movie",
+		"audio_path": "1173502.npy"
+	},
+	{
+		"audio_id": 246,
+		"caption": "happy, party",
+		"audio_path": "1089917.npy"
+	},
+	{
+		"audio_id": 640,
+		"caption": "relaxing, romantic",
+		"audio_path": "1265323.npy"
+	},
+	{
+		"audio_id": 428,
+		"caption": "film, meditative",
+		"audio_path": "1150102.npy"
+	},
+	{
+		"audio_id": 393,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1122010.npy"
+	},
+	{
+		"audio_id": 166,
+		"caption": "love, melodic",
+		"audio_path": "1057423.npy"
+	},
+	{
+		"audio_id": 719,
+		"caption": "dark, upbeat",
+		"audio_path": "1320008.npy"
+	},
+	{
+		"audio_id": 752,
+		"caption": "drama, emotional",
+		"audio_path": "1336212.npy"
+	},
+	{
+		"audio_id": 285,
+		"caption": "background",
+		"audio_path": "1108513.npy"
+	},
+	{
+		"audio_id": 142,
+		"caption": "inspiring",
+		"audio_path": "1036105.npy"
+	},
+	{
+		"audio_id": 111,
+		"caption": "emotional, epic, film",
+		"audio_path": "1012001.npy"
+	},
+	{
+		"audio_id": 467,
+		"caption": "melancholic",
+		"audio_path": "1159623.npy"
+	},
+	{
+		"audio_id": 771,
+		"caption": "happy",
+		"audio_path": "1355022.npy"
+	},
+	{
+		"audio_id": 211,
+		"caption": "emotional",
+		"audio_path": "1073705.npy"
+	},
+	{
+		"audio_id": 537,
+		"caption": "sad",
+		"audio_path": "1185315.npy"
+	},
+	{
+		"audio_id": 481,
+		"caption": "groovy",
+		"audio_path": "1168017.npy"
+	},
+	{
+		"audio_id": 635,
+		"caption": "romantic",
+		"audio_path": "1265312.npy"
+	},
+	{
+		"audio_id": 252,
+		"caption": "deep, sexy",
+		"audio_path": "1089924.npy"
+	},
+	{
+		"audio_id": 414,
+		"caption": "ballad",
+		"audio_path": "1143807.npy"
+	},
+	{
+		"audio_id": 658,
+		"caption": "love, sad",
+		"audio_path": "1277824.npy"
+	},
+	{
+		"audio_id": 319,
+		"caption": "melodic",
+		"audio_path": "1112013.npy"
+	},
+	{
+		"audio_id": 292,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1109816.npy"
+	},
+	{
+		"audio_id": 665,
+		"caption": "energetic, travel",
+		"audio_path": "1281915.npy"
+	},
+	{
+		"audio_id": 352,
+		"caption": "melodic",
+		"audio_path": "1115621.npy"
+	},
+	{
+		"audio_id": 443,
+		"caption": "film, meditative",
+		"audio_path": "1150121.npy"
+	},
+	{
+		"audio_id": 496,
+		"caption": "emotional",
+		"audio_path": "1169715.npy"
+	},
+	{
+		"audio_id": 213,
+		"caption": "emotional",
+		"audio_path": "1073718.npy"
+	},
+	{
+		"audio_id": 806,
+		"caption": "corporate, dream",
+		"audio_path": "1384404.npy"
+	},
+	{
+		"audio_id": 503,
+		"caption": "emotional",
+		"audio_path": "1169722.npy"
+	},
+	{
+		"audio_id": 362,
+		"caption": "melodic",
+		"audio_path": "1115706.npy"
+	},
+	{
+		"audio_id": 709,
+		"caption": "emotional, love, romantic, sad",
+		"audio_path": "1313322.npy"
+	},
+	{
+		"audio_id": 652,
+		"caption": "sad",
+		"audio_path": "1275614.npy"
+	},
+	{
+		"audio_id": 521,
+		"caption": "movie",
+		"audio_path": "1170416.npy"
+	},
+	{
+		"audio_id": 400,
+		"caption": "adventure, commercial, documentary",
+		"audio_path": "1123202.npy"
+	},
+	{
+		"audio_id": 444,
+		"caption": "film, meditative",
+		"audio_path": "1150122.npy"
+	},
+	{
+		"audio_id": 649,
+		"caption": "sad",
+		"audio_path": "1275611.npy"
+	},
+	{
+		"audio_id": 570,
+		"caption": "advertising",
+		"audio_path": "1217510.npy"
+	},
+	{
+		"audio_id": 573,
+		"caption": "advertising",
+		"audio_path": "1217513.npy"
+	},
+	{
+		"audio_id": 430,
+		"caption": "film, meditative",
+		"audio_path": "1150104.npy"
+	},
+	{
+		"audio_id": 758,
+		"caption": "meditative",
+		"audio_path": "1342913.npy"
+	},
+	{
+		"audio_id": 168,
+		"caption": "emotional",
+		"audio_path": "1057709.npy"
+	},
+	{
+		"audio_id": 638,
+		"caption": "film, relaxing, romantic",
+		"audio_path": "1265315.npy"
+	},
+	{
+		"audio_id": 192,
+		"caption": "background, commercial",
+		"audio_path": "1067024.npy"
+	},
+	{
+		"audio_id": 346,
+		"caption": "melodic",
+		"audio_path": "1115615.npy"
+	},
+	{
+		"audio_id": 102,
+		"caption": "corporate, dramatic, inspiring",
+		"audio_path": "1001307.npy"
+	},
+	{
+		"audio_id": 725,
+		"caption": "dark, upbeat",
+		"audio_path": "1320014.npy"
+	},
+	{
+		"audio_id": 323,
+		"caption": "melodic",
+		"audio_path": "1112017.npy"
+	},
+	{
+		"audio_id": 722,
+		"caption": "dark, upbeat",
+		"audio_path": "1320011.npy"
+	},
+	{
+		"audio_id": 729,
+		"caption": "dark, upbeat",
+		"audio_path": "1320019.npy"
+	},
+	{
+		"audio_id": 354,
+		"caption": "melodic",
+		"audio_path": "1115623.npy"
+	},
+	{
+		"audio_id": 394,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1122011.npy"
+	},
+	{
+		"audio_id": 589,
+		"caption": "emotional, happy",
+		"audio_path": "1227102.npy"
+	},
+	{
+		"audio_id": 377,
+		"caption": "sad",
+		"audio_path": "1117703.npy"
+	},
+	{
+		"audio_id": 162,
+		"caption": "dream",
+		"audio_path": "1056407.npy"
+	},
+	{
+		"audio_id": 425,
+		"caption": "film, meditative",
+		"audio_path": "1149723.npy"
+	},
+	{
+		"audio_id": 298,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1109822.npy"
+	},
+	{
+		"audio_id": 375,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1116409.npy"
+	},
+	{
+		"audio_id": 137,
+		"caption": "ambiental",
+		"audio_path": "1029507.npy"
+	},
+	{
+		"audio_id": 624,
+		"caption": "dream, emotional, melodic, positive, romantic",
+		"audio_path": "1254011.npy"
+	},
+	{
+		"audio_id": 122,
+		"caption": "emotional, hopeful, love",
+		"audio_path": "1024405.npy"
+	},
+	{
+		"audio_id": 265,
+		"caption": "advertising, epic, motivational, nature",
+		"audio_path": "1095111.npy"
+	},
+	{
+		"audio_id": 216,
+		"caption": "emotional",
+		"audio_path": "1075802.npy"
+	},
+	{
+		"audio_id": 157,
+		"caption": "background, commercial",
+		"audio_path": "1055324.npy"
+	},
+	{
+		"audio_id": 441,
+		"caption": "film, meditative",
+		"audio_path": "1150119.npy"
+	},
+	{
+		"audio_id": 550,
+		"caption": "action, drama, energetic",
+		"audio_path": "1205809.npy"
+	},
+	{
+		"audio_id": 196,
+		"caption": "melodic",
+		"audio_path": "1072911.npy"
+	},
+	{
+		"audio_id": 592,
+		"caption": "ambiental",
+		"audio_path": "1228102.npy"
+	},
+	{
+		"audio_id": 387,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1122004.npy"
+	},
+	{
+		"audio_id": 456,
+		"caption": "energetic, inspiring",
+		"audio_path": "1156317.npy"
+	},
+	{
+		"audio_id": 603,
+		"caption": "calm, slow",
+		"audio_path": "1236403.npy"
+	},
+	{
+		"audio_id": 275,
+		"caption": "dark, documentary",
+		"audio_path": "1100424.npy"
+	},
+	{
+		"audio_id": 269,
+		"caption": "adventure, advertising, motivational, soundscape",
+		"audio_path": "1095117.npy"
+	},
+	{
+		"audio_id": 670,
+		"caption": "romantic",
+		"audio_path": "1286511.npy"
+	},
+	{
+		"audio_id": 386,
+		"caption": "relaxing",
+		"audio_path": "1121504.npy"
+	},
+	{
+		"audio_id": 156,
+		"caption": "background, commercial",
+		"audio_path": "1055323.npy"
+	},
+	{
+		"audio_id": 544,
+		"caption": "romantic",
+		"audio_path": "1195903.npy"
+	},
+	{
+		"audio_id": 243,
+		"caption": "happy, summer",
+		"audio_path": "1089913.npy"
+	},
+	{
+		"audio_id": 405,
+		"caption": "drama, emotional, fast, travel",
+		"audio_path": "1128212.npy"
+	},
+	{
+		"audio_id": 487,
+		"caption": "emotional",
+		"audio_path": "1169706.npy"
+	},
+	{
+		"audio_id": 685,
+		"caption": "adventure, dream, film",
+		"audio_path": "1299805.npy"
+	},
+	{
+		"audio_id": 248,
+		"caption": "love",
+		"audio_path": "1089920.npy"
+	},
+	{
+		"audio_id": 302,
+		"caption": "happy, uplifting",
+		"audio_path": "1110515.npy"
+	},
+	{
+		"audio_id": 671,
+		"caption": "calm, romantic",
+		"audio_path": "1286512.npy"
+	},
+	{
+		"audio_id": 509,
+		"caption": "movie",
+		"audio_path": "1170403.npy"
+	},
+	{
+		"audio_id": 331,
+		"caption": "slow",
+		"audio_path": "1113505.npy"
+	},
+	{
+		"audio_id": 811,
+		"caption": "corporate",
+		"audio_path": "1384411.npy"
+	},
+	{
+		"audio_id": 204,
+		"caption": "advertising, motivational",
+		"audio_path": "1073218.npy"
+	},
+	{
+		"audio_id": 338,
+		"caption": "melodic",
+		"audio_path": "1115607.npy"
+	},
+	{
+		"audio_id": 497,
+		"caption": "emotional",
+		"audio_path": "1169716.npy"
+	},
+	{
+		"audio_id": 342,
+		"caption": "melodic",
+		"audio_path": "1115611.npy"
+	},
+	{
+		"audio_id": 452,
+		"caption": "documentary, drama, soft",
+		"audio_path": "1151403.npy"
+	},
+	{
+		"audio_id": 602,
+		"caption": "fun",
+		"audio_path": "1236402.npy"
+	},
+	{
+		"audio_id": 433,
+		"caption": "film, meditative",
+		"audio_path": "1150107.npy"
+	},
+	{
+		"audio_id": 419,
+		"caption": "film, meditative",
+		"audio_path": "1149714.npy"
+	},
+	{
+		"audio_id": 510,
+		"caption": "movie",
+		"audio_path": "1170404.npy"
+	},
+	{
+		"audio_id": 584,
+		"caption": "epic",
+		"audio_path": "1221917.npy"
+	},
+	{
+		"audio_id": 139,
+		"caption": "ambiental",
+		"audio_path": "1029509.npy"
+	},
+	{
+		"audio_id": 356,
+		"caption": "melodic",
+		"audio_path": "1115700.npy"
+	},
+	{
+		"audio_id": 622,
+		"caption": "nature",
+		"audio_path": "1251814.npy"
+	},
+	{
+		"audio_id": 320,
+		"caption": "melodic",
+		"audio_path": "1112014.npy"
+	},
+	{
+		"audio_id": 819,
+		"caption": "christmas, love, sad",
+		"audio_path": "1400005.npy"
+	},
+	{
+		"audio_id": 641,
+		"caption": "relaxing, romantic",
+		"audio_path": "1265324.npy"
+	},
+	{
+		"audio_id": 826,
+		"caption": "film, love",
+		"audio_path": "1412813.npy"
+	},
+	{
+		"audio_id": 389,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1122006.npy"
+	},
+	{
+		"audio_id": 587,
+		"caption": "dark",
+		"audio_path": "1222615.npy"
+	},
+	{
+		"audio_id": 363,
+		"caption": "melodic",
+		"audio_path": "1115707.npy"
+	},
+	{
+		"audio_id": 360,
+		"caption": "melodic",
+		"audio_path": "1115704.npy"
+	},
+	{
+		"audio_id": 600,
+		"caption": "ballad, romantic",
+		"audio_path": "1235601.npy"
+	},
+	{
+		"audio_id": 197,
+		"caption": "advertising, motivational",
+		"audio_path": "1073211.npy"
+	},
+	{
+		"audio_id": 339,
+		"caption": "melodic",
+		"audio_path": "1115608.npy"
+	},
+	{
+		"audio_id": 322,
+		"caption": "melodic",
+		"audio_path": "1112016.npy"
+	},
+	{
+		"audio_id": 151,
+		"caption": "emotional, love, romantic",
+		"audio_path": "1050422.npy"
+	},
+	{
+		"audio_id": 581,
+		"caption": "deep",
+		"audio_path": "1217521.npy"
+	},
+	{
+		"audio_id": 287,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1109811.npy"
+	},
+	{
+		"audio_id": 385,
+		"caption": "ballad, happy, hopeful, romantic",
+		"audio_path": "1121503.npy"
+	},
+	{
+		"audio_id": 256,
+		"caption": "advertising, hopeful, motivational, nature, relaxing",
+		"audio_path": "1095102.npy"
+	},
+	{
+		"audio_id": 698,
+		"caption": "sad",
+		"audio_path": "1300500.npy"
+	},
+	{
+		"audio_id": 314,
+		"caption": "melodic",
+		"audio_path": "1112008.npy"
+	},
+	{
+		"audio_id": 804,
+		"caption": "corporate",
+		"audio_path": "1384402.npy"
+	},
+	{
+		"audio_id": 723,
+		"caption": "dark, upbeat",
+		"audio_path": "1320012.npy"
+	},
+	{
+		"audio_id": 205,
+		"caption": "advertising, motivational",
+		"audio_path": "1073219.npy"
+	},
+	{
+		"audio_id": 112,
+		"caption": "emotional, epic, film",
+		"audio_path": "1012002.npy"
+	},
+	{
+		"audio_id": 558,
+		"caption": "sad",
+		"audio_path": "1211603.npy"
+	},
+	{
+		"audio_id": 501,
+		"caption": "emotional",
+		"audio_path": "1169720.npy"
+	},
+	{
+		"audio_id": 764,
+		"caption": "christmas, positive",
+		"audio_path": "1350823.npy"
+	},
+	{
+		"audio_id": 751,
+		"caption": "drama, emotional",
+		"audio_path": "1336211.npy"
+	},
+	{
+		"audio_id": 787,
+		"caption": "cool, groovy",
+		"audio_path": "1371815.npy"
+	},
+	{
+		"audio_id": 451,
+		"caption": "dark",
+		"audio_path": "1150512.npy"
+	},
+	{
+		"audio_id": 642,
+		"caption": "deep",
+		"audio_path": "1266508.npy"
+	},
+	{
+		"audio_id": 185,
+		"caption": "relaxing",
+		"audio_path": "1066202.npy"
+	},
+	{
+		"audio_id": 563,
+		"caption": "sad",
+		"audio_path": "1211608.npy"
+	},
+	{
+		"audio_id": 278,
+		"caption": "commercial, documentary, emotional",
+		"audio_path": "1102818.npy"
+	},
+	{
+		"audio_id": 728,
+		"caption": "dark, upbeat",
+		"audio_path": "1320017.npy"
+	},
+	{
+		"audio_id": 735,
+		"caption": "emotional, love",
+		"audio_path": "1323010.npy"
+	},
+	{
+		"audio_id": 571,
+		"caption": "advertising",
+		"audio_path": "1217511.npy"
+	},
+	{
+		"audio_id": 184,
+		"caption": "film",
+		"audio_path": "1066201.npy"
+	},
+	{
+		"audio_id": 608,
+		"caption": "melodic",
+		"audio_path": "1241407.npy"
+	},
+	{
+		"audio_id": 498,
+		"caption": "emotional",
+		"audio_path": "1169717.npy"
+	},
+	{
+		"audio_id": 793,
+		"caption": "happy",
+		"audio_path": "1374308.npy"
+	},
+	{
+		"audio_id": 191,
+		"caption": "advertising, positive, uplifting",
+		"audio_path": "1066513.npy"
+	},
+	{
+		"audio_id": 586,
+		"caption": "sad",
+		"audio_path": "1222609.npy"
+	},
+	{
+		"audio_id": 610,
+		"caption": "space",
+		"audio_path": "1241411.npy"
+	},
+	{
+		"audio_id": 746,
+		"caption": "hopeful",
+		"audio_path": "1332221.npy"
+	},
+	{
+		"audio_id": 412,
+		"caption": "sad, soft",
+		"audio_path": "1136617.npy"
+	},
+	{
+		"audio_id": 694,
+		"caption": "dream, slow",
+		"audio_path": "1299814.npy"
+	},
+	{
+		"audio_id": 569,
+		"caption": "advertising",
+		"audio_path": "1217509.npy"
+	},
+	{
+		"audio_id": 438,
+		"caption": "film, meditative",
+		"audio_path": "1150113.npy"
+	},
+	{
+		"audio_id": 434,
+		"caption": "film, meditative",
+		"audio_path": "1150108.npy"
+	},
+	{
+		"audio_id": 740,
+		"caption": "dream, epic, melodic, relaxing",
+		"audio_path": "1329502.npy"
+	},
+	{
+		"audio_id": 133,
+		"caption": "sad",
+		"audio_path": "1028910.npy"
+	},
+	{
+		"audio_id": 463,
+		"caption": "energetic",
+		"audio_path": "1158200.npy"
+	},
+	{
+		"audio_id": 476,
+		"caption": "dark, emotional, film, slow",
+		"audio_path": "1166619.npy"
+	},
+	{
+		"audio_id": 693,
+		"caption": "dream, film, soft",
+		"audio_path": "1299813.npy"
+	},
+	{
+		"audio_id": 678,
+		"caption": "dream",
+		"audio_path": "1288116.npy"
+	},
+	{
+		"audio_id": 193,
+		"caption": "ballad",
+		"audio_path": "1069008.npy"
+	},
+	{
+		"audio_id": 769,
+		"caption": "sad",
+		"audio_path": "1352824.npy"
+	},
+	{
+		"audio_id": 145,
+		"caption": "ballad",
+		"audio_path": "1036802.npy"
+	},
+	{
+		"audio_id": 567,
+		"caption": "advertising",
+		"audio_path": "1217505.npy"
+	},
+	{
+		"audio_id": 273,
+		"caption": "action, calm, sad",
+		"audio_path": "1099318.npy"
+	},
+	{
+		"audio_id": 714,
+		"caption": "dark, upbeat",
+		"audio_path": "1320003.npy"
+	},
+	{
+		"audio_id": 829,
+		"caption": "advertising, film, inspiring, melodic, motivational",
+		"audio_path": "1415108.npy"
+	},
+	{
+		"audio_id": 555,
+		"caption": "meditative, melancholic, sad",
+		"audio_path": "1210607.npy"
+	},
+	{
+		"audio_id": 152,
+		"caption": "emotional, love, romantic",
+		"audio_path": "1050423.npy"
+	},
+	{
+		"audio_id": 760,
+		"caption": "emotional, inspiring, romantic",
+		"audio_path": "1347008.npy"
+	},
+	{
+		"audio_id": 475,
+		"caption": "dark, heavy, sad",
+		"audio_path": "1166618.npy"
+	},
+	{
+		"audio_id": 364,
+		"caption": "melodic",
+		"audio_path": "1115708.npy"
+	},
+	{
+		"audio_id": 202,
+		"caption": "advertising, motivational",
+		"audio_path": "1073216.npy"
+	},
+	{
+		"audio_id": 483,
+		"caption": "cool",
+		"audio_path": "1168021.npy"
+	},
+	{
+		"audio_id": 675,
+		"caption": "romantic",
+		"audio_path": "1286517.npy"
+	},
+	{
+		"audio_id": 258,
+		"caption": "advertising, motivational",
+		"audio_path": "1095104.npy"
+	},
+	{
+		"audio_id": 515,
+		"caption": "movie",
+		"audio_path": "1170409.npy"
+	},
+	{
+		"audio_id": 355,
+		"caption": "melodic",
+		"audio_path": "1115624.npy"
+	},
+	{
+		"audio_id": 327,
+		"caption": "melodic",
+		"audio_path": "1112021.npy"
+	},
+	{
+		"audio_id": 227,
+		"caption": "energetic",
+		"audio_path": "1078710.npy"
+	},
+	{
+		"audio_id": 474,
+		"caption": "energetic",
+		"audio_path": "1163812.npy"
+	},
+	{
+		"audio_id": 634,
+		"caption": "romantic",
+		"audio_path": "1265311.npy"
+	},
+	{
+		"audio_id": 578,
+		"caption": "advertising, deep",
+		"audio_path": "1217518.npy"
+	},
+	{
+		"audio_id": 548,
+		"caption": "upbeat, uplifting",
+		"audio_path": "1203319.npy"
+	},
+	{
+		"audio_id": 816,
+		"caption": "calm, emotional, melancholic",
+		"audio_path": "1396500.npy"
+	},
+	{
+		"audio_id": 268,
+		"caption": "advertising, motivational",
+		"audio_path": "1095114.npy"
+	},
+	{
+		"audio_id": 401,
+		"caption": "documentary, romantic",
+		"audio_path": "1124711.npy"
+	},
+	{
+		"audio_id": 131,
+		"caption": "sad",
+		"audio_path": "1028906.npy"
+	},
+	{
+		"audio_id": 201,
+		"caption": "advertising, motivational",
+		"audio_path": "1073215.npy"
+	},
+	{
+		"audio_id": 391,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1122008.npy"
+	},
+	{
+		"audio_id": 143,
+		"caption": "inspiring",
+		"audio_path": "1036107.npy"
+	},
+	{
+		"audio_id": 266,
+		"caption": "advertising, dramatic, motivational, romantic",
+		"audio_path": "1095112.npy"
+	},
+	{
+		"audio_id": 755,
+		"caption": "film",
+		"audio_path": "1338304.npy"
+	},
+	{
+		"audio_id": 127,
+		"caption": "sad",
+		"audio_path": "1028902.npy"
+	},
+	{
+		"audio_id": 792,
+		"caption": "funny",
+		"audio_path": "1374304.npy"
+	},
+	{
+		"audio_id": 318,
+		"caption": "melodic",
+		"audio_path": "1112012.npy"
+	},
+	{
+		"audio_id": 418,
+		"caption": "film",
+		"audio_path": "1149713.npy"
+	},
+	{
+		"audio_id": 189,
+		"caption": "film, love, sad",
+		"audio_path": "1066206.npy"
+	},
+	{
+		"audio_id": 770,
+		"caption": "happy",
+		"audio_path": "1355020.npy"
+	},
+	{
+		"audio_id": 759,
+		"caption": "dream",
+		"audio_path": "1342914.npy"
+	},
+	{
+		"audio_id": 426,
+		"caption": "film, meditative",
+		"audio_path": "1149724.npy"
+	},
+	{
+		"audio_id": 138,
+		"caption": "ambiental",
+		"audio_path": "1029508.npy"
+	},
+	{
+		"audio_id": 420,
+		"caption": "film, meditative",
+		"audio_path": "1149715.npy"
+	},
+	{
+		"audio_id": 738,
+		"caption": "calm",
+		"audio_path": "1327811.npy"
+	},
+	{
+		"audio_id": 219,
+		"caption": "movie",
+		"audio_path": "1076601.npy"
+	},
+	{
+		"audio_id": 627,
+		"caption": "background, fun",
+		"audio_path": "1261216.npy"
+	},
+	{
+		"audio_id": 371,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1116405.npy"
+	},
+	{
+		"audio_id": 326,
+		"caption": "melodic",
+		"audio_path": "1112020.npy"
+	},
+	{
+		"audio_id": 206,
+		"caption": "advertising, motivational",
+		"audio_path": "1073220.npy"
+	},
+	{
+		"audio_id": 663,
+		"caption": "advertising, background, uplifting",
+		"audio_path": "1279617.npy"
+	},
+	{
+		"audio_id": 579,
+		"caption": "advertising",
+		"audio_path": "1217519.npy"
+	},
+	{
+		"audio_id": 295,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1109819.npy"
+	},
+	{
+		"audio_id": 288,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1109812.npy"
+	},
+	{
+		"audio_id": 727,
+		"caption": "dark, upbeat",
+		"audio_path": "1320016.npy"
+	},
+	{
+		"audio_id": 732,
+		"caption": "dark, upbeat",
+		"audio_path": "1320022.npy"
+	},
+	{
+		"audio_id": 372,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1116406.npy"
+	},
+	{
+		"audio_id": 447,
+		"caption": "film, meditative",
+		"audio_path": "1150402.npy"
+	},
+	{
+		"audio_id": 612,
+		"caption": "emotional, sad",
+		"audio_path": "1248605.npy"
+	},
+	{
+		"audio_id": 457,
+		"caption": "inspiring, uplifting",
+		"audio_path": "1156318.npy"
+	},
+	{
+		"audio_id": 361,
+		"caption": "melodic",
+		"audio_path": "1115705.npy"
+	},
+	{
+		"audio_id": 724,
+		"caption": "dark, upbeat",
+		"audio_path": "1320013.npy"
+	},
+	{
+		"audio_id": 716,
+		"caption": "dark, upbeat",
+		"audio_path": "1320005.npy"
+	},
+	{
+		"audio_id": 828,
+		"caption": "inspiring, melodic",
+		"audio_path": "1415107.npy"
+	},
+	{
+		"audio_id": 791,
+		"caption": "melancholic",
+		"audio_path": "1374303.npy"
+	},
+	{
+		"audio_id": 705,
+		"caption": "sad",
+		"audio_path": "1311817.npy"
+	},
+	{
+		"audio_id": 479,
+		"caption": "ballad, melancholic, sad",
+		"audio_path": "1168014.npy"
+	},
+	{
+		"audio_id": 772,
+		"caption": "emotional",
+		"audio_path": "1355023.npy"
+	},
+	{
+		"audio_id": 390,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1122007.npy"
+	},
+	{
+		"audio_id": 396,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1122013.npy"
+	},
+	{
+		"audio_id": 351,
+		"caption": "melodic",
+		"audio_path": "1115620.npy"
+	},
+	{
+		"audio_id": 459,
+		"caption": "love",
+		"audio_path": "1156320.npy"
+	},
+	{
+		"audio_id": 625,
+		"caption": "documentary, romantic, soft",
+		"audio_path": "1254722.npy"
+	},
+	{
+		"audio_id": 448,
+		"caption": "film",
+		"audio_path": "1150403.npy"
+	},
+	{
+		"audio_id": 532,
+		"caption": "love",
+		"audio_path": "1174817.npy"
+	},
+	{
+		"audio_id": 462,
+		"caption": "sad",
+		"audio_path": "1157603.npy"
+	},
+	{
+		"audio_id": 781,
+		"caption": "dream",
+		"audio_path": "1361408.npy"
+	},
+	{
+		"audio_id": 402,
+		"caption": "drama, sad",
+		"audio_path": "1124713.npy"
+	},
+	{
+		"audio_id": 631,
+		"caption": "ballad, relaxing, romantic",
+		"audio_path": "1265307.npy"
+	},
+	{
+		"audio_id": 662,
+		"caption": "melancholic, sad",
+		"audio_path": "1278720.npy"
+	},
+	{
+		"audio_id": 679,
+		"caption": "christmas",
+		"audio_path": "1292120.npy"
+	},
+	{
+		"audio_id": 711,
+		"caption": "space",
+		"audio_path": "1317220.npy"
+	},
+	{
+		"audio_id": 782,
+		"caption": "melancholic",
+		"audio_path": "1361519.npy"
+	},
+	{
+		"audio_id": 330,
+		"caption": "melodic",
+		"audio_path": "1112024.npy"
+	},
+	{
+		"audio_id": 439,
+		"caption": "film, meditative",
+		"audio_path": "1150114.npy"
+	},
+	{
+		"audio_id": 629,
+		"caption": "romantic",
+		"audio_path": "1263902.npy"
+	},
+	{
+		"audio_id": 119,
+		"caption": "documentary, dream",
+		"audio_path": "1023305.npy"
+	},
+	{
+		"audio_id": 551,
+		"caption": "love, soft",
+		"audio_path": "1209204.npy"
+	},
+	{
+		"audio_id": 717,
+		"caption": "dark, upbeat",
+		"audio_path": "1320006.npy"
+	},
+	{
+		"audio_id": 585,
+		"caption": "love",
+		"audio_path": "1222501.npy"
+	},
+	{
+		"audio_id": 524,
+		"caption": "sad",
+		"audio_path": "1171009.npy"
+	},
+	{
+		"audio_id": 465,
+		"caption": "energetic",
+		"audio_path": "1159615.npy"
+	},
+	{
+		"audio_id": 538,
+		"caption": "corporate, hopeful, inspiring, motivational, uplifting",
+		"audio_path": "1189913.npy"
+	},
+	{
+		"audio_id": 767,
+		"caption": "love, romantic",
+		"audio_path": "1352820.npy"
+	},
+	{
+		"audio_id": 580,
+		"caption": "advertising",
+		"audio_path": "1217520.npy"
+	},
+	{
+		"audio_id": 289,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1109813.npy"
+	},
+	{
+		"audio_id": 429,
+		"caption": "film, meditative",
+		"audio_path": "1150103.npy"
+	},
+	{
+		"audio_id": 271,
+		"caption": "relaxing",
+		"audio_path": "1098504.npy"
+	},
+	{
+		"audio_id": 540,
+		"caption": "meditative",
+		"audio_path": "1190523.npy"
+	},
+	{
+		"audio_id": 312,
+		"caption": "melodic",
+		"audio_path": "1112006.npy"
+	},
+	{
+		"audio_id": 599,
+		"caption": "melancholic",
+		"audio_path": "1235017.npy"
+	},
+	{
+		"audio_id": 615,
+		"caption": "happy",
+		"audio_path": "1250200.npy"
+	},
+	{
+		"audio_id": 517,
+		"caption": "movie",
+		"audio_path": "1170411.npy"
+	},
+	{
+		"audio_id": 637,
+		"caption": "relaxing",
+		"audio_path": "1265314.npy"
+	},
+	{
+		"audio_id": 653,
+		"caption": "relaxing",
+		"audio_path": "1275615.npy"
+	},
+	{
+		"audio_id": 827,
+		"caption": "adventure, documentary, happy",
+		"audio_path": "1412817.npy"
+	},
+	{
+		"audio_id": 300,
+		"caption": "love, slow",
+		"audio_path": "1110302.npy"
+	},
+	{
+		"audio_id": 336,
+		"caption": "melodic",
+		"audio_path": "1115605.npy"
+	},
+	{
+		"audio_id": 182,
+		"caption": "advertising, motivational",
+		"audio_path": "1062600.npy"
+	},
+	{
+		"audio_id": 485,
+		"caption": "dream, slow",
+		"audio_path": "1168805.npy"
+	},
+	{
+		"audio_id": 745,
+		"caption": "positive",
+		"audio_path": "1332220.npy"
+	},
+	{
+		"audio_id": 775,
+		"caption": "emotional, romantic",
+		"audio_path": "1357401.npy"
+	},
+	{
+		"audio_id": 774,
+		"caption": "emotional, romantic",
+		"audio_path": "1357400.npy"
+	},
+	{
+		"audio_id": 674,
+		"caption": "romantic",
+		"audio_path": "1286516.npy"
+	},
+	{
+		"audio_id": 321,
+		"caption": "melodic",
+		"audio_path": "1112015.npy"
+	},
+	{
+		"audio_id": 263,
+		"caption": "advertising, motivational",
+		"audio_path": "1095109.npy"
+	},
+	{
+		"audio_id": 473,
+		"caption": "emotional, energetic, melodic, nature",
+		"audio_path": "1163806.npy"
+	},
+	{
+		"audio_id": 130,
+		"caption": "sad",
+		"audio_path": "1028905.npy"
+	},
+	{
+		"audio_id": 411,
+		"caption": "love",
+		"audio_path": "1133301.npy"
+	},
+	{
+		"audio_id": 214,
+		"caption": "film",
+		"audio_path": "1074314.npy"
+	},
+	{
+		"audio_id": 233,
+		"caption": "happy, inspiring, motivational, positive",
+		"audio_path": "1087100.npy"
+	},
+	{
+		"audio_id": 104,
+		"caption": "epic, film, inspiring, soft",
+		"audio_path": "1001312.npy"
+	},
+	{
+		"audio_id": 741,
+		"caption": "epic",
+		"audio_path": "1329523.npy"
+	},
+	{
+		"audio_id": 344,
+		"caption": "melodic",
+		"audio_path": "1115613.npy"
+	},
+	{
+		"audio_id": 647,
+		"caption": "dark, sad",
+		"audio_path": "1275609.npy"
+	},
+	{
+		"audio_id": 609,
+		"caption": "sad",
+		"audio_path": "1241410.npy"
+	},
+	{
+		"audio_id": 514,
+		"caption": "movie",
+		"audio_path": "1170408.npy"
+	},
+	{
+		"audio_id": 293,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1109817.npy"
+	},
+	{
+		"audio_id": 274,
+		"caption": "documentary, uplifting",
+		"audio_path": "1100422.npy"
+	},
+	{
+		"audio_id": 720,
+		"caption": "dark, upbeat",
+		"audio_path": "1320009.npy"
+	},
+	{
+		"audio_id": 445,
+		"caption": "film, meditative",
+		"audio_path": "1150123.npy"
+	},
+	{
+		"audio_id": 209,
+		"caption": "advertising, motivational",
+		"audio_path": "1073223.npy"
+	},
+	{
+		"audio_id": 328,
+		"caption": "melodic",
+		"audio_path": "1112022.npy"
+	},
+	{
+		"audio_id": 536,
+		"caption": "love",
+		"audio_path": "1185306.npy"
+	},
+	{
+		"audio_id": 367,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1116401.npy"
+	},
+	{
+		"audio_id": 619,
+		"caption": "commercial, happy",
+		"audio_path": "1250216.npy"
+	},
+	{
+		"audio_id": 505,
+		"caption": "emotional",
+		"audio_path": "1169724.npy"
+	},
+	{
+		"audio_id": 427,
+		"caption": "film, meditative",
+		"audio_path": "1150101.npy"
+	},
+	{
+		"audio_id": 113,
+		"caption": "emotional, epic, film",
+		"audio_path": "1012003.npy"
+	},
+	{
+		"audio_id": 234,
+		"caption": "happy, inspiring, positive",
+		"audio_path": "1087101.npy"
+	},
+	{
+		"audio_id": 687,
+		"caption": "dream, love, sad, slow",
+		"audio_path": "1299807.npy"
+	},
+	{
+		"audio_id": 311,
+		"caption": "happy, uplifting",
+		"audio_path": "1110524.npy"
+	},
+	{
+		"audio_id": 153,
+		"caption": "fast",
+		"audio_path": "1055021.npy"
+	},
+	{
+		"audio_id": 546,
+		"caption": "advertising, commercial",
+		"audio_path": "1195921.npy"
+	},
+	{
+		"audio_id": 413,
+		"caption": "melancholic, melodic, sad",
+		"audio_path": "1137403.npy"
+	},
+	{
+		"audio_id": 366,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1116400.npy"
+	},
+	{
+		"audio_id": 337,
+		"caption": "melodic",
+		"audio_path": "1115606.npy"
+	},
+	{
+		"audio_id": 595,
+		"caption": "film",
+		"audio_path": "1230820.npy"
+	},
+	{
+		"audio_id": 173,
+		"caption": "documentary, movie, relaxing",
+		"audio_path": "1058217.npy"
+	},
+	{
+		"audio_id": 262,
+		"caption": "advertising, motivational",
+		"audio_path": "1095108.npy"
+	},
+	{
+		"audio_id": 507,
+		"caption": "movie",
+		"audio_path": "1170401.npy"
+	},
+	{
+		"audio_id": 780,
+		"caption": "sad",
+		"audio_path": "1358216.npy"
+	},
+	{
+		"audio_id": 493,
+		"caption": "emotional",
+		"audio_path": "1169712.npy"
+	},
+	{
+		"audio_id": 824,
+		"caption": "corporate, happy, inspiring",
+		"audio_path": "1402108.npy"
+	},
+	{
+		"audio_id": 554,
+		"caption": "inspiring, meditative, melancholic, melodic",
+		"audio_path": "1210606.npy"
+	},
+	{
+		"audio_id": 690,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1299810.npy"
+	},
+	{
+		"audio_id": 470,
+		"caption": "ballad",
+		"audio_path": "1160422.npy"
+	},
+	{
+		"audio_id": 231,
+		"caption": "dark",
+		"audio_path": "1081716.npy"
+	},
+	{
+		"audio_id": 797,
+		"caption": "romantic",
+		"audio_path": "1378003.npy"
+	},
+	{
+		"audio_id": 155,
+		"caption": "background, commercial, dream",
+		"audio_path": "1055321.npy"
+	},
+	{
+		"audio_id": 264,
+		"caption": "advertising, motivational",
+		"audio_path": "1095110.npy"
+	},
+	{
+		"audio_id": 812,
+		"caption": "corporate",
+		"audio_path": "1384412.npy"
+	},
+	{
+		"audio_id": 666,
+		"caption": "background, sad",
+		"audio_path": "1281920.npy"
+	},
+	{
+		"audio_id": 697,
+		"caption": "love, sad, slow",
+		"audio_path": "1299817.npy"
+	},
+	{
+		"audio_id": 458,
+		"caption": "love",
+		"audio_path": "1156319.npy"
+	},
+	{
+		"audio_id": 543,
+		"caption": "positive",
+		"audio_path": "1195902.npy"
+	},
+	{
+		"audio_id": 294,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1109818.npy"
+	},
+	{
+		"audio_id": 255,
+		"caption": "background, dream",
+		"audio_path": "1094521.npy"
+	},
+	{
+		"audio_id": 464,
+		"caption": "energetic",
+		"audio_path": "1158201.npy"
+	},
+	{
+		"audio_id": 628,
+		"caption": "romantic",
+		"audio_path": "1263822.npy"
+	},
+	{
+		"audio_id": 242,
+		"caption": "meditative",
+		"audio_path": "1089222.npy"
+	},
+	{
+		"audio_id": 613,
+		"caption": "sad",
+		"audio_path": "1248607.npy"
+	},
+	{
+		"audio_id": 680,
+		"caption": "children",
+		"audio_path": "1292122.npy"
+	},
+	{
+		"audio_id": 534,
+		"caption": "dream, film",
+		"audio_path": "1176411.npy"
+	},
+	{
+		"audio_id": 181,
+		"caption": "commercial",
+		"audio_path": "1061518.npy"
+	},
+	{
+		"audio_id": 392,
+		"caption": "dream, relaxing, soft",
+		"audio_path": "1122009.npy"
+	},
+	{
+		"audio_id": 103,
+		"caption": "corporate, dramatic, trailer",
+		"audio_path": "1001311.npy"
+	},
+	{
+		"audio_id": 777,
+		"caption": "corporate",
+		"audio_path": "1357403.npy"
+	},
+	{
+		"audio_id": 175,
+		"caption": "documentary, movie, relaxing",
+		"audio_path": "1058219.npy"
+	},
+	{
+		"audio_id": 449,
+		"caption": "film, meditative",
+		"audio_path": "1150404.npy"
+	},
+	{
+		"audio_id": 704,
+		"caption": "sad",
+		"audio_path": "1311816.npy"
+	},
+	{
+		"audio_id": 651,
+		"caption": "melancholic, sad",
+		"audio_path": "1275613.npy"
+	},
+	{
+		"audio_id": 147,
+		"caption": "ambiental, background",
+		"audio_path": "1037901.npy"
+	},
+	{
+		"audio_id": 702,
+		"caption": "love, melancholic",
+		"audio_path": "1310214.npy"
+	},
+	{
+		"audio_id": 207,
+		"caption": "advertising, motivational",
+		"audio_path": "1073221.npy"
+	},
+	{
+		"audio_id": 817,
+		"caption": "drama, emotional, film, sad",
+		"audio_path": "1396502.npy"
+	},
+	{
+		"audio_id": 494,
+		"caption": "emotional",
+		"audio_path": "1169713.npy"
+	},
+	{
+		"audio_id": 800,
+		"caption": "melodic",
+		"audio_path": "1380121.npy"
+	},
+	{
+		"audio_id": 491,
+		"caption": "emotional",
+		"audio_path": "1169710.npy"
+	},
+	{
+		"audio_id": 313,
+		"caption": "melodic",
+		"audio_path": "1112007.npy"
+	},
+	{
+		"audio_id": 384,
+		"caption": "dream, film",
+		"audio_path": "1121423.npy"
+	},
+	{
+		"audio_id": 149,
+		"caption": "melodic",
+		"audio_path": "1041500.npy"
+	},
+	{
+		"audio_id": 304,
+		"caption": "happy, uplifting",
+		"audio_path": "1110517.npy"
+	},
+	{
+		"audio_id": 126,
+		"caption": "sad",
+		"audio_path": "1028901.npy"
+	},
+	{
+		"audio_id": 689,
+		"caption": "dream, relaxing",
+		"audio_path": "1299809.npy"
+	},
+	{
+		"audio_id": 176,
+		"caption": "documentary, movie, relaxing",
+		"audio_path": "1058220.npy"
+	},
+	{
+		"audio_id": 341,
+		"caption": "melodic",
+		"audio_path": "1115610.npy"
+	},
+	{
+		"audio_id": 606,
+		"caption": "calm",
+		"audio_path": "1241404.npy"
+	},
+	{
+		"audio_id": 120,
+		"caption": "documentary, dream",
+		"audio_path": "1023319.npy"
+	},
+	{
+		"audio_id": 601,
+		"caption": "emotional, film",
+		"audio_path": "1236111.npy"
+	},
+	{
+		"audio_id": 220,
+		"caption": "movie",
+		"audio_path": "1076602.npy"
+	},
+	{
+		"audio_id": 785,
+		"caption": "cool, groovy",
+		"audio_path": "1371806.npy"
+	},
+	{
+		"audio_id": 408,
+		"caption": "energetic",
+		"audio_path": "1130514.npy"
+	},
+	{
+		"audio_id": 650,
+		"caption": "sad",
+		"audio_path": "1275612.npy"
+	},
+	{
+		"audio_id": 779,
+		"caption": "corporate, inspiring",
+		"audio_path": "1357405.npy"
+	},
+	{
+		"audio_id": 646,
+		"caption": "dark",
+		"audio_path": "1275607.npy"
+	},
+	{
+		"audio_id": 825,
+		"caption": "calm, uplifting",
+		"audio_path": "1406017.npy"
+	},
+	{
+		"audio_id": 221,
+		"caption": "movie",
+		"audio_path": "1076603.npy"
+	},
+	{
+		"audio_id": 229,
+		"caption": "energetic",
+		"audio_path": "1078712.npy"
+	},
+	{
+		"audio_id": 618,
+		"caption": "children, fun, happy",
+		"audio_path": "1250215.npy"
+	},
+	{
+		"audio_id": 453,
+		"caption": "documentary, emotional, love, romantic",
+		"audio_path": "1151415.npy"
+	},
+	{
+		"audio_id": 590,
+		"caption": "emotional",
+		"audio_path": "1227103.npy"
+	},
+	{
+		"audio_id": 583,
+		"caption": "epic",
+		"audio_path": "1221916.npy"
+	},
+	{
+		"audio_id": 284,
+		"caption": "background",
+		"audio_path": "1108512.npy"
+	},
+	{
+		"audio_id": 790,
+		"caption": "epic, melancholic",
+		"audio_path": "1374301.npy"
+	},
+	{
+		"audio_id": 484,
+		"caption": "dream, sad",
+		"audio_path": "1168024.npy"
+	},
+	{
+		"audio_id": 222,
+		"caption": "energetic",
+		"audio_path": "1078705.npy"
+	},
+	{
+		"audio_id": 506,
+		"caption": "movie",
+		"audio_path": "1170400.npy"
+	},
+	{
+		"audio_id": 808,
+		"caption": "corporate",
+		"audio_path": "1384406.npy"
+	},
+	{
+		"audio_id": 347,
+		"caption": "melodic",
+		"audio_path": "1115616.npy"
+	},
+	{
+		"audio_id": 834,
+		"caption": "dream",
+		"audio_path": "1415803.npy"
+	},
+	{
+		"audio_id": 598,
+		"caption": "relaxing",
+		"audio_path": "1234423.npy"
+	},
+	{
+		"audio_id": 520,
+		"caption": "movie",
+		"audio_path": "1170414.npy"
+	},
+	{
+		"audio_id": 353,
+		"caption": "melodic",
+		"audio_path": "1115622.npy"
+	},
+	{
+		"audio_id": 596,
+		"caption": "sad",
+		"audio_path": "1231502.npy"
+	},
+	{
+		"audio_id": 660,
+		"caption": "documentary, love, melodic, romantic",
+		"audio_path": "1278311.npy"
+	},
+	{
+		"audio_id": 406,
+		"caption": "ballad",
+		"audio_path": "1128216.npy"
+	},
+	{
+		"audio_id": 535,
+		"caption": "dream, film, hopeful",
+		"audio_path": "1176413.npy"
+	},
+	{
+		"audio_id": 661,
+		"caption": "dark, sad",
+		"audio_path": "1278717.npy"
+	},
+	{
+		"audio_id": 170,
+		"caption": "documentary, movie, relaxing",
+		"audio_path": "1058214.npy"
+	},
+	{
+		"audio_id": 159,
+		"caption": "dream",
+		"audio_path": "1056402.npy"
+	},
+	{
+		"audio_id": 695,
+		"caption": "dream, relaxing",
+		"audio_path": "1299815.npy"
+	},
+	{
+		"audio_id": 643,
+		"caption": "emotional, relaxing",
+		"audio_path": "1267123.npy"
+	},
+	{
+		"audio_id": 235,
+		"caption": "happy, inspiring, motivational, positive",
+		"audio_path": "1087104.npy"
+	},
+	{
+		"audio_id": 645,
+		"caption": "christmas",
+		"audio_path": "1271205.npy"
+	},
+	{
+		"audio_id": 730,
+		"caption": "dark, upbeat",
+		"audio_path": "1320020.npy"
+	},
+	{
+		"audio_id": 333,
+		"caption": "melodic, movie",
+		"audio_path": "1114210.npy"
+	},
+	{
+		"audio_id": 712,
+		"caption": "dark, upbeat",
+		"audio_path": "1320000.npy"
+	},
+	{
+		"audio_id": 597,
+		"caption": "happy",
+		"audio_path": "1234411.npy"
+	},
+	{
+		"audio_id": 379,
+		"caption": "film, hopeful",
+		"audio_path": "1121404.npy"
+	},
+	{
+		"audio_id": 504,
+		"caption": "emotional",
+		"audio_path": "1169723.npy"
+	},
+	{
+		"audio_id": 566,
+		"caption": "advertising",
+		"audio_path": "1217504.npy"
+	},
+	{
+		"audio_id": 561,
+		"caption": "sad",
+		"audio_path": "1211606.npy"
+	},
+	{
+		"audio_id": 734,
+		"caption": "dark, upbeat",
+		"audio_path": "1320024.npy"
+	},
+	{
+		"audio_id": 707,
+		"caption": "sad",
+		"audio_path": "1311820.npy"
+	},
+	{
+		"audio_id": 183,
+		"caption": "relaxing",
+		"audio_path": "1066200.npy"
+	},
+	{
+		"audio_id": 701,
+		"caption": "sad",
+		"audio_path": "1310113.npy"
+	}
+]
