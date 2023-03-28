@@ -6,6 +6,7 @@ from torch.utils.data import DataLoader, Subset
 from muscall.models.muscall import MusCALL
 from muscall.datasets.audiocaption import AudioCaptionDataset
 
+import numpy as np
 
 @torch.no_grad()
 def get_muscall_features(model, data_loader, device):
@@ -17,7 +18,6 @@ def get_muscall_features(model, data_loader, device):
     samples_in_previous_batch = 0
 
     for i, batch in enumerate(data_loader):
-        print("batch #: ", i)
         batch = tuple(t.to(device=device, non_blocking=True) for t in batch)
         _, input_audio, text_input_ids, _, _, _ = batch
 
@@ -30,7 +30,6 @@ def get_muscall_features(model, data_loader, device):
             text_features.norm(dim=-1, keepdim=True)
 
         samples_in_current_batch = input_audio.size(0)
-        print("samples: ", samples_in_current_batch)
         start_index = i * samples_in_previous_batch
         end_index = start_index + samples_in_current_batch
         samples_in_previous_batch = samples_in_current_batch
@@ -40,7 +39,15 @@ def get_muscall_features(model, data_loader, device):
 
     return all_audio_features, all_text_features
 
+'''
+Compute a similarity score matrix by multiplying the audio features matrix with the transpose of the text feature matrix
 
+logits_per_audio: each row is an audio, each column is a text
+logits_per_text: each row is a text, each column is an audio
+
+In logits_per_text, each entry at row i, column j represents the similary score
+between the audio feature vector of and text i and audio j.
+'''
 def compute_sim_score(audio_features, text_features):
     logits_per_audio = audio_features @ text_features.t() # matrix multiplication + transpose
     logits_per_text = logits_per_audio.t()
@@ -49,21 +56,43 @@ def compute_sim_score(audio_features, text_features):
 
 
 def get_ranking(score_matrix, device):
-    num_queries = score_matrix.size(0)
-    num_items = score_matrix.size(1)
+    num_queries = score_matrix.size(0) # queries = texts
+    num_items = score_matrix.size(1) # items = audio files
 
     scores_sorted, retrieved_indices = torch.sort(
         score_matrix, dim=1, descending=True)
+    
+    # num_queries: number of 2D matrix
+    # num_items: number of rows in each 2D matrix
+    # 1: number of columns in each 2D matrix
     gt_indices = torch.zeros((num_queries, num_items, 1))
-    print("score_matrix", score_matrix)
-    print("scores_sorted", scores_sorted)
+
+    print("score_matrix", score_matrix) 
+    # print("scores_sorted", scores_sorted)
     print("retrieved_indices: ", retrieved_indices)
 
     for i in range(num_queries):
         gt_indices[i] = torch.full((num_queries, 1), i)
+    # gt_indices = tensor([[[0.],
+                    #      [0.],
+                    #      [0.]],
+
+                    #     [[1.],
+                    #      [1.],
+                    #      [1.]],
+
+                    #     [[2.],
+                    #      [2.],
+                    #      [2.]],
+                    # ])
 
     gt_indices = gt_indices.squeeze(-1).to(device)
-
+    # gt_indices = tensor([[0., 0., 0., 0., 0.],
+                        # [1., 1., 1., 1., 1.],
+                        # [2., 2., 2., 2., 2.],
+                        # [3., 3., 3., 3., 3.],
+                        # ...
+                        # []])
     return retrieved_indices, gt_indices
 
 
@@ -72,8 +101,8 @@ def compute_metrics(retrieved_indices, gt_indices):
 
     bool_matrix = retrieved_indices == gt_indices
 
-    r1 = 100 * bool_matrix[:, 0].sum() / num_items
-    r5 = 100 * bool_matrix[:, :5].sum() / num_items
+    r1 = 100 * bool_matrix[:, 0].sum() / num_items # bool_matrix[: 0] selects all rows of the first column (column with index 0)
+    r5 = 100 * bool_matrix[:, :5].sum() / num_items # bool_matrix[:, 5] selects all rows of the first 5 columns (exclude column index 5)
     r10 = 100 * bool_matrix[:, :10].sum() / num_items
 
     median_rank = (torch.where(bool_matrix == True)[1] + 1).median()
@@ -119,8 +148,10 @@ class Retrieval:
         dataset = AudioCaptionDataset(self.muscall_config.dataset_config, dataset_type="test")
         indices = torch.randperm(len(dataset))[: self.test_set_size]
         random_dataset = Subset(dataset, indices)
-        # self.batch_size = 256
-        self.batch_size = 5
+        # self.batch_size = 256     # 8.9109
+        # self.batch_size = 8         # 11.8812
+        self.batch_size = 10      # 10.8911
+        # self.batch_size = 20      # 10.8911
         self.data_loader = DataLoader(
             dataset=random_dataset,
             batch_size=self.batch_size,
@@ -135,14 +166,15 @@ class Retrieval:
         self.model.eval()
         # self.evaluate()
 
-    def evaluate(self):
+    def evaluate(self, ouput_txt):
         audio_features, text_features = get_muscall_features(
             self.model, self.data_loader, self.device
         )
         score_matrix = compute_sim_score(text_features, audio_features)
-
         retrieved_indices, gt_indices = get_ranking(score_matrix, self.device)
         retrieval_metrics = compute_metrics(retrieved_indices, gt_indices)
-        print(retrieval_metrics)
+        
+        # print the indices to a .txt file
+        np.savetxt(ouput_txt, retrieved_indices, '%d')
 
         return retrieval_metrics
