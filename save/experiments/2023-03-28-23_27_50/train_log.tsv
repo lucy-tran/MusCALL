@@ -1,0 +1,2 @@
+Epoch	train_loss	val_loss	metric	epoch_time	learing_rate	time_stamp
+1	2.78531	2.76414	7.24638	103.889s	4.87764e-05	2023-03-28 23:29:36

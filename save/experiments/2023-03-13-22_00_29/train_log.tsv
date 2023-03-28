@@ -1,0 +1,6 @@
+# Trained with the MTG-735 dataset, with batch size = 10, learning rate = 5e-05
+training size = 632, validation size = 103
+
+Epoch	train_loss	val_loss	metric	epoch_time	learing_rate	time_stamp
+1	2.28905	2.20322	19.4175	439.301s	4.87764e-05	2023-03-13 22:07:50
+2	2.21087	2.15628	23.301	471.939s	4.52254e-05	2023-03-13 22:15:44
