@@ -1,6 +1,7 @@
 import os
 import argparse
 from omegaconf import OmegaConf
+import numpy as np
 
 from muscall.tasks.retrieval import Retrieval
 from muscall.tasks.classification import Zeroshot
@@ -20,6 +21,13 @@ def parse_args():
         type=str,
         help="name of the evaluation task (retrieval or zeroshot)",
     )
+
+    parser.add_argument(
+        "output_file_name",
+        type=str,
+        default="output.txt"
+    )
+
     parser.add_argument(
         "--test_set_size",
         type=int,
@@ -37,6 +45,7 @@ def parse_args():
         default="0",
     )
 
+
     args = parser.parse_args()
 
     return args
@@ -52,11 +61,19 @@ if __name__ == "__main__":
 
     os.environ["CUDA_VISIBLE_DEVICES"] = params.device_num
 
+    output_file_name = params.output_file_name
+    
     if params.task == "retrieval":
         evaluation = Retrieval(muscall_config, params.test_set_size)
+        txt_file = os.path.join(get_root_dir(), "save/experiments/{}/{}.txt".format(model_id, output_file_name))
     elif params.task == "zeroshot":
         evaluation = Zeroshot(muscall_config, params.dataset_name)
+        txt_file = os.path.join(get_root_dir(), "save/experiments/{}/{}.txt".format(model_id, output_file_name))
     else:
         raise ValueError("{} task not supported".format(params.task))
 
-    evaluation.evaluate()
+    retrieval_metrics = evaluation.evaluate(txt_file)
+    print(retrieval_metrics)
+
+
+
