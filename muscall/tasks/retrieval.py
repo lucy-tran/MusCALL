@@ -67,9 +67,9 @@ def get_ranking(score_matrix, device):
     # 1: number of columns in each 2D matrix
     gt_indices = torch.zeros((num_queries, num_items, 1))
 
-    print("score_matrix", score_matrix) 
+    # print("score_matrix", score_matrix) 
     # print("scores_sorted", scores_sorted)
-    print("retrieved_indices: ", retrieved_indices)
+    # print("retrieved_indices: ", retrieved_indices)
 
     for i in range(num_queries):
         gt_indices[i] = torch.full((num_queries, 1), i)

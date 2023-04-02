@@ -1,0 +1,32 @@
+# of trainable parameters: 40774153
+Started training experiment with id 2023-03-31-22_33_39
+Epoch 1, train loss 2.11538, val loss 2.08249, metric 6.28019, epoch-time 109.44s, lr 0.000487764, time-stamp 2023-03-31 22:35:32
+Saving best model so far
+Epoch 2, train loss 2.07886, val loss 2.11971, metric 5.31401, epoch-time 111.425s, lr 0.000452254, time-stamp 2023-03-31 22:37:25
+Epoch 3, train loss 2.07048, val loss 2.08334, metric 5.31401, epoch-time 110.357s, lr 0.000396946, time-stamp 2023-03-31 22:39:17
+Epoch 4, train loss 2.0468, val loss 2.06449, metric 6.28019, epoch-time 106.117s, lr 0.000327254, time-stamp 2023-03-31 22:41:05
+Epoch 5, train loss 2.04569, val loss 2.04502, metric 7.24638, epoch-time 105.992s, lr 0.00025, time-stamp 2023-03-31 22:42:54
+Saving best model so far
+Epoch 6, train loss 2.02779, val loss 2.0306, metric 5.7971, epoch-time 110.72s, lr 0.000172746, time-stamp 2023-03-31 22:44:53
+Epoch 7, train loss 2.02484, val loss 2.01778, metric 7.72947, epoch-time 109.299s, lr 0.000103054, time-stamp 2023-03-31 22:46:44
+Saving best model so far
+Epoch 8, train loss 1.98715, val loss 2.00336, metric 6.28019, epoch-time 109.381s, lr 4.77458e-05, time-stamp 2023-03-31 22:48:37
+Epoch 9, train loss 1.98303, val loss 2.00745, metric 11.1111, epoch-time 109.454s, lr 1.22359e-05, time-stamp 2023-03-31 22:50:28
+Saving best model so far
+Epoch 10, train loss 1.98513, val loss 1.99321, metric 9.66184, epoch-time 108.873s, lr 0, time-stamp 2023-03-31 22:52:20
+Epoch 11, train loss 1.9751, val loss 2.0078, metric 11.1111, epoch-time 107.773s, lr 1.22359e-05, time-stamp 2023-03-31 22:54:10
+Epoch 12, train loss 1.96617, val loss 1.99467, metric 8.69565, epoch-time 108.73s, lr 4.77458e-05, time-stamp 2023-03-31 22:56:00
+Epoch 13, train loss 1.96993, val loss 2.02657, metric 9.66184, epoch-time 109.234s, lr 0.000103054, time-stamp 2023-03-31 22:57:51
+Epoch 14, train loss 1.98428, val loss 2.02883, metric 6.76329, epoch-time 109.417s, lr 0.000172746, time-stamp 2023-03-31 22:59:43
+Epoch 15, train loss 2.00466, val loss 2.07879, metric 8.21256, epoch-time 107.325s, lr 0.00025, time-stamp 2023-03-31 23:01:32
+Epoch 16, train loss 2.00826, val loss 2.0483, metric 6.28019, epoch-time 109.067s, lr 0.000327254, time-stamp 2023-03-31 23:03:23
+Epoch 17, train loss 2.03558, val loss 2.0463, metric 6.76329, epoch-time 112.638s, lr 0.000396946, time-stamp 2023-03-31 23:05:17
+Epoch 18, train loss 2.00939, val loss 2.00265, metric 6.76329, epoch-time 108.207s, lr 0.000452254, time-stamp 2023-03-31 23:07:07
+Epoch 19, train loss 1.99865, val loss 1.9913, metric 8.69565, epoch-time 108.893s, lr 0.000487764, time-stamp 2023-03-31 23:08:58
+Epoch 20, train loss 2.02258, val loss 2.04187, metric 6.76329, epoch-time 106.838s, lr 0.0005, time-stamp 2023-03-31 23:10:46
+Epoch 21, train loss 2.05867, val loss 2.08122, metric 5.31401, epoch-time 108.283s, lr 0.000487764, time-stamp 2023-03-31 23:12:36
+Epoch 22, train loss 2.06374, val loss 2.0701, metric 5.7971, epoch-time 106.729s, lr 0.000452254, time-stamp 2023-03-31 23:14:25
+Epoch 23, train loss 2.04981, val loss 2.10244, metric 4.83092, epoch-time 107.597s, lr 0.000396946, time-stamp 2023-03-31 23:16:14
+Epoch 24, train loss 2.03253, val loss 2.0666, metric 4.83092, epoch-time 110.051s, lr 0.000327254, time-stamp 2023-03-31 23:18:06
+Epoch 25, train loss 2.03023, val loss 2.04119, metric 7.24638, epoch-time 110.094s, lr 0.00025, time-stamp 2023-03-31 23:19:58
+Epoch 26, train loss 2.02658, val loss 2.0267, metric 6.28019, epoch-time 107.994s, lr 0.000172746, time-stamp 2023-03-31 23:21:48
