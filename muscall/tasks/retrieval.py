@@ -1,4 +1,5 @@
 import os
+import json
 
 import torch
 from torch.utils.data import DataLoader, Subset
@@ -96,7 +97,7 @@ def get_ranking(score_matrix, device):
     return retrieved_indices, gt_indices
 
 
-def compute_metrics(retrieved_indices, gt_indices):
+def compute_metrics(retrieved_indices, gt_indices, eval=False):
     num_items = gt_indices.size(1)
 
     bool_matrix = retrieved_indices == gt_indices
@@ -114,7 +115,19 @@ def compute_metrics(retrieved_indices, gt_indices):
         "Median Rank": median_rank,
     }
 
-    return retrieval_metrics
+
+    retrieval_metrics_eval = {
+        "R@1": r1.item(),
+        "R@5": r5.item(),
+        "R@10": r10.item(),
+        "Median Rank": median_rank.item(),
+    }
+
+    if (not eval):
+        return retrieval_metrics
+    else:
+        return retrieval_metrics_eval
+
 
 def run_retrieval(model, data_loader, device):
     """Wrapper function to run all steps for text-audio/audio-text retrieval"""
@@ -149,9 +162,11 @@ class Retrieval:
         indices = torch.randperm(len(dataset))[: self.test_set_size]
         random_dataset = Subset(dataset, indices)
         # self.batch_size = 256     # 8.9109
-        # self.batch_size = 8         # 11.8812
         self.batch_size = 10      # 10.8911
         # self.batch_size = 20      # 10.8911
+        # self.batch_size = 8         # 11.8812
+        # self.batch_size = 16         # 
+
         self.data_loader = DataLoader(
             dataset=random_dataset,
             batch_size=self.batch_size,
@@ -166,15 +181,23 @@ class Retrieval:
         self.model.eval()
         # self.evaluate()
 
-    def evaluate(self, ouput_txt):
+    def evaluate(self, output_file):
         audio_features, text_features = get_muscall_features(
             self.model, self.data_loader, self.device
         )
         score_matrix = compute_sim_score(text_features, audio_features)
         retrieved_indices, gt_indices = get_ranking(score_matrix, self.device)
-        retrieval_metrics = compute_metrics(retrieved_indices, gt_indices)
+        retrieval_metrics = compute_metrics(retrieved_indices, gt_indices, True)
+
+        json_retrieval_metrics = json.dumps(retrieval_metrics)
+        with open(output_file, 'w') as f:
+            f.write(json_retrieval_metrics + '\n\n')
         
         # print the indices to a .txt file
-        np.savetxt(ouput_txt, retrieved_indices, '%d')
+        retrieved_indices = retrieved_indices.cpu()
 
-        return retrieval_metrics
+        with open(output_file, 'ab') as f:
+            np.savetxt(f, retrieved_indices, '%d')
+
+        return json_retrieval_metrics
+
