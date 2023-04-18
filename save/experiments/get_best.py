@@ -32,7 +32,8 @@ with open("records.tsv", "w", encoding='utf8', newline='') as record_file:
             if metric > best_metric:
                best_metric = metric
 
-      tsv_writer.writerow([exp, best_val_loss, best_metric])
+      if best_val_loss != 999.0 and best_metric != 0.0:
+         tsv_writer.writerow([exp, best_val_loss, best_metric])
 
 
 
