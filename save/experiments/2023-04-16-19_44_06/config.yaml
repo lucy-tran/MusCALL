@@ -1,0 +1,79 @@
+training:
+  experiment_id: null
+  epochs: 100
+  device: cuda
+  dataloader:
+    batch_size: 32
+    num_workers: 4
+    shuffle: true
+    pin_memory: true
+  optimizer:
+    name: AdamW
+    args:
+      lr: 0.0005
+      eps: 1.0e-06
+      betas:
+      - 0.9
+      - 0.98
+      weight_decay: 0.2
+  amp: true
+  early_stop:
+    enabled: false
+    patience: 4000
+    criteria: loss
+    minimize: true
+env:
+  base_dir: /home/lucy-tran/music_on_canvas/MusCALL
+  data_root: ${env.base_dir}/data
+  save_dir: ${env.base_dir}/save
+  experiments_dir: ${env.save_dir}/experiments
+  experiment_id: 2023-04-16-19_44_06
+dataset_config:
+  dataset_name: audiocaption
+  data_dir: ${env.data_root}/datasets/${dataset_config.dataset_name}
+  text:
+    max_seq_length: 77
+    tokenizer: cliptokenizer
+  audio:
+    sr: 16000
+    crop_length: 20
+    random_crop: true
+    augment: true
+    p_noise: 0.3
+    p_pitch_shift: 0.4
+model_config:
+  model_name: muscall
+  projection_dim: 512
+  temperature: null
+  audio:
+    model: ModifiedResNet
+    pooling: attention
+    audio_len_seconds: 20
+    hidden_size: 256
+    conv_out_channels: 16
+    n_mels: 128
+    sample_rate: 16000
+    n_fft: 1024
+    f_min: 0
+    f_max: 11025
+    ssl:
+      do_ssl: false
+      ssl_loss_weight: 0.3
+      ssl_temperature: 0.5
+      ssl_projection_dim: 128
+      p_polarity: 0.8
+      p_noise: 0.3
+      p_gain: 0.2
+      p_pitch_shift: 0.4
+  text:
+    model: TextTransformer
+    pretrained: openai/clip-vit-base-patch32
+    frozen_layers: null
+    num_hidden_layers: 4
+    hidden_size: 512
+    num_attention_heads: 8
+    vocab_size: 49408
+    max_position_embeddings: 77
+    attention_dropout: 0.2
+    dropout: 0.2
+  loss: clip
