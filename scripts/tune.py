@@ -10,15 +10,17 @@ def train(learning_rate, batch_size):
     subprocess.run(command, shell=True)
 
 
-for lr in range(4, 7):
-    for batch_size in range(3, 9):
-        if (batch_size==3 and lr==4):
-            for i in range(8):
-                train(lr, batch_size)
-        if (batch_size==3 and lr==5) or (batch_size==4 and lr==5):
-            for i in range(9):
+for lr in range(5, 7):
+    for batch_size in range(3, 6):
+        if (lr==5 and batch_size==3):
+            for _ in range(2):
                 train(lr, batch_size)
         else:
-            for i in range(10):
+            for _ in range(3):
                 train(lr, batch_size)
+
+# for batch_size in range(3, 6):
+#     for _ in range(10):
+#         train(3, batch_size)
+
 
