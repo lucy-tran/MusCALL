@@ -54,6 +54,7 @@ def compute_sim_score(audio_features, text_features):
     logits_per_text = logits_per_audio.t()
 
     return logits_per_text
+    # return logits_per_audio
 
 
 def get_ranking(score_matrix, device):
@@ -103,13 +104,17 @@ def compute_metrics(retrieved_indices, gt_indices, eval=False):
     bool_matrix = retrieved_indices == gt_indices
 
     r1 = 100 * bool_matrix[:, 0].sum() / num_items # bool_matrix[: 0] selects all rows of the first column (column with index 0)
+    r2 = 100 * bool_matrix[:, :2].sum() / num_items # bool_matrix[: 0] selects all rows of the first 2 columns (column with index 2)
+    r3 = 100 * bool_matrix[:, :3].sum() / num_items # bool_matrix[: 0] selects all rows of the first 3 columns (column with index 3)
+    r4 = 100 * bool_matrix[:, :4].sum() / num_items # bool_matrix[: 0] selects all rows of the first 4 columns (column with index 4)
     r5 = 100 * bool_matrix[:, :5].sum() / num_items # bool_matrix[:, 5] selects all rows of the first 5 columns (exclude column index 5)
-    r10 = 100 * bool_matrix[:, :10].sum() / num_items
+    r10 = 100 * bool_matrix[:, :10].sum() / num_items # bool_matrix[:, 10] selects all rows of the first 10 columns (exclude column index 10)
 
     median_rank = (torch.where(bool_matrix == True)[1] + 1).median()
 
     retrieval_metrics = {
         "R@1": r1,
+        "R@2": r2,
         "R@5": r5,
         "R@10": r10,
         "Median Rank": median_rank,
@@ -118,6 +123,9 @@ def compute_metrics(retrieved_indices, gt_indices, eval=False):
 
     retrieval_metrics_eval = {
         "R@1": r1.item(),
+        "R@2": r2.item(),
+        "R@3": r3.item(),
+        "R@4": r4.item(),
         "R@5": r5.item(),
         "R@10": r10.item(),
         "Median Rank": median_rank.item(),
@@ -160,6 +168,7 @@ class Retrieval:
     def load_dataset(self):
         dataset = AudioCaptionDataset(self.muscall_config.dataset_config, dataset_type="test")
         indices = torch.randperm(len(dataset))[: self.test_set_size]
+        # indices = torch.range(0, self.test_set_size-1, dtype=torch.int)
         random_dataset = Subset(dataset, indices)
         # self.batch_size = 256     # 8.9109
         self.batch_size = 10      # 10.8911
