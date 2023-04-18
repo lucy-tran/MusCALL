@@ -29,7 +29,7 @@ def parse_args():
     )
 
     parser.add_argument(
-        "--test_set_size",
+        "test_set_size",
         type=int,
         help="size of the random testing set",
         default=1000,
@@ -51,7 +51,7 @@ def parse_args():
     return args
 
 
-if __name__ == "__main__":
+def main():
     params = parse_args()
     model_id = params.model_id
 
@@ -73,7 +73,6 @@ if __name__ == "__main__":
         raise ValueError("{} task not supported".format(params.task))
 
     retrieval_metrics = evaluation.evaluate(txt_file)
-    print(retrieval_metrics)
+    return retrieval_metrics
 
-
-
+main()
