@@ -12,9 +12,22 @@ def test(model_id, test_set_size, trial):
     retrieval_metrics = subprocess.run(command, shell=True)
 
 experiments_path = os.path.join("..", "save", "experiments")
-experiments = os.listdir(experiments_path)
-experiments.remove('get_best.py')
-experiments.remove('records.tsv')
+# experiments = os.listdir(experiments_path)
+experiments = []
+# experiments.append('2023-04-02-03_44_33')
+# experiments.append('2023-04-05-04_00_06')
+# experiments.append('2023-04-06-00_01_20')
+
+# experiments.append('2023-04-07-09_18_49')
+experiments.append('2023-04-08-01_25_55')
+experiments.append('2023-04-09-02_06_34')
+
+experiments.append('2023-04-09-11_58_53')
+experiments.append('2023-04-10-17_27_46')
+experiments.append('2023-04-11-08_25_09')
+
+# experiments.remove('get_best.py')
+# experiments.remove('records.tsv')
 
 num_trials = 1
 
@@ -37,7 +50,7 @@ with open("results.tsv", "w", encoding='utf8', newline='') as record_file:
             with open(output_file_path, 'r') as file:
                 retrieval_metrics = json.loads(file.readline())
 
-                trial_R_10 = retrieval_metrics["R@2"]
+                trial_R_10 = retrieval_metrics["R@1"]
                 total_R_10 += trial_R_10
 
                 if trial_R_10 > best_R_10:

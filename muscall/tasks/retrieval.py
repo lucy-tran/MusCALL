@@ -49,12 +49,14 @@ logits_per_text: each row is a text, each column is an audio
 In logits_per_text, each entry at row i, column j represents the similary score
 between the audio feature vector of and text i and audio j.
 '''
-def compute_sim_score(audio_features, text_features):
+def compute_sim_score(audio_features, text_features, eval=False):
     logits_per_audio = audio_features @ text_features.t() # matrix multiplication + transpose
     logits_per_text = logits_per_audio.t()
 
-    return logits_per_text
-    # return logits_per_audio
+    if (not eval):
+        return logits_per_text
+    else:
+        return logits_per_audio
 
 
 def get_ranking(score_matrix, device):
@@ -167,8 +169,8 @@ class Retrieval:
 
     def load_dataset(self):
         dataset = AudioCaptionDataset(self.muscall_config.dataset_config, dataset_type="test")
-        indices = torch.randperm(len(dataset))[: self.test_set_size]
-        # indices = torch.range(0, self.test_set_size-1, dtype=torch.int)
+        # indices = torch.randperm(len(dataset))[: self.test_set_size]
+        indices = torch.range(0, self.test_set_size-1, dtype=torch.int)
         random_dataset = Subset(dataset, indices)
         # self.batch_size = 256     # 8.9109
         self.batch_size = 10      # 10.8911
@@ -194,9 +196,9 @@ class Retrieval:
         audio_features, text_features = get_muscall_features(
             self.model, self.data_loader, self.device
         )
-        score_matrix = compute_sim_score(text_features, audio_features)
+        score_matrix = compute_sim_score(text_features, audio_features, eval=True)
         retrieved_indices, gt_indices = get_ranking(score_matrix, self.device)
-        retrieval_metrics = compute_metrics(retrieved_indices, gt_indices, True)
+        retrieval_metrics = compute_metrics(retrieved_indices, gt_indices, eval=True)
 
         json_retrieval_metrics = json.dumps(retrieval_metrics)
         with open(output_file, 'w') as f:
